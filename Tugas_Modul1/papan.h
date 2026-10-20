@@ -28,15 +28,17 @@ class Papan {
             
             if(posisiy < 0) {continue;}
             
+            if(papan[posisiy][posisix] == 1) {
+              return true;
+            }
+
             if (posisiy >= 20 || posisix < 0 || posisix >= 10) {
               return true; 
             }
-
+            
             if(posisiy >= 20) {
               return true;
             } else if(posisix < 0 || posisix >= 10) {
-              return true;
-            } else if(papan[posisix][posisiy + 1] == 1) {
               return true;
             }
           }
@@ -49,9 +51,9 @@ class Papan {
       for(int i = 0; i < 4; i++) {
         for(int j = 0; j < 4; j++) {
           int posisix = blok.x + j;
-          int posisiy = blok.y + i;
+          int posisiy = (blok.y - 1) + i;
 
-          if (posisiy >= 0 && posisiy < 20 && posisix >= 0 && posisix < 10) {
+          if (posisiy >= 0 && posisiy < 20 && posisix >= 0 && posisix < 10 && blok.bentuk[i][j] == 1) {
             papan[posisiy][posisix] = 1;
           }        
         }
@@ -60,7 +62,7 @@ class Papan {
 
     void hapus_baris() {
       bool param = false;
-      for(int i = 0; i < TINGGI; i++) {
+      for(int i = TINGGI - 1; i >= 0; i--) {
         for(int j = 0; j < LEBAR; j++) {
           if(papan[i][j] == 0) {
             param = true;
@@ -71,10 +73,12 @@ class Papan {
         if(param) {
           param = false;
         } else {
-          for(int k = i - 1; k <= 0; k++) {
+          for(int k = i - 1; k >= 0; k--) {
             for(int l = 0; l < LEBAR; l++) {
               if(papan[k][l] == 1) {
                 papan[k + 1][l] = 1;
+              } else {
+                papan[k + 1][l] = 0;
               }
             }   
           }

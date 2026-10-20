@@ -58,6 +58,7 @@ class Tetris {
         case 0:
           //Z
           bentuk[0][2] = 1; bentuk[1][2] = 1; bentuk[1][1] = 1; bentuk[2][1] = 1;
+          break;
         case 1:
           //Kotak
           bentuk[1][1] = 1; bentuk[1][2] = 1; bentuk[2][1] = 1; bentuk[2][2] = 1;
@@ -65,18 +66,23 @@ class Tetris {
         case 2:
           //I
           bentuk[0][1] = 1; bentuk[1][1] = 1; bentuk[2][1] = 1; bentuk[3][1] = 1;
+          break;
         case 3:
           //T
           bentuk[1][1] = 1; bentuk[2][0] = 1; bentuk[2][1] = 1; bentuk[2][2] = 1;
+          break;
         case 4:
           //L
           bentuk[0][1] = 1; bentuk[1][1] = 1; bentuk[2][1] = 1; bentuk[2][2] = 1;
+          break;
         case 5:
           //S
           bentuk[1][2] = 1; bentuk[1][1] = 1; bentuk[2][1] = 1, bentuk[2][0] = 1;
+          break;
         case 6:
           //J
           bentuk[0][2] = 1; bentuk[1][2] = 1; bentuk[2][2] = 1; bentuk[2][1] = 1;
+          break;
       }
     }
 };

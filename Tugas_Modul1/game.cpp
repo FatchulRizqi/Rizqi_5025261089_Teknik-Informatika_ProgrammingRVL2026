@@ -88,9 +88,9 @@ class Game {
         papan.hapus_baris();
         
         tetris_game = Tetris();
-        // if(papan.tabrakan(tetris_game)) {
-        //   gameOver = true;
-        // }
+        if(papan.tabrakan(tetris_game)) {
+          gameOver = true;
+        }
       }
     }
 
