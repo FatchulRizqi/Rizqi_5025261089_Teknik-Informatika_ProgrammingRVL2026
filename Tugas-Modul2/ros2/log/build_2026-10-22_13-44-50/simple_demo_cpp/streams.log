@@ -1,0 +1,24 @@
+[0.012s] Invoking command in '/home/symphony/ros2/build/simple_demo_cpp': AMENT_PREFIX_PATH=/home/symphony/ros2/install/custom_message:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/symphony/ros2/install/custom_message:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org LD_LIBRARY_PATH=/home/symphony/ros2/install/custom_message/lib:${LD_LIBRARY_PATH} PS1=[\u@\h \W]\$ PYTHONPATH=/home/symphony/ros2/install/custom_message/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/symphony/ros2/build/simple_demo_cpp -- -j20 -l20
+[0.118s] [ 50%] Built target listener
+[0.119s] [100%] Built target talker
+[0.134s] Invoked command in '/home/symphony/ros2/build/simple_demo_cpp' returned '0': AMENT_PREFIX_PATH=/home/symphony/ros2/install/custom_message:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/symphony/ros2/install/custom_message:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org LD_LIBRARY_PATH=/home/symphony/ros2/install/custom_message/lib:${LD_LIBRARY_PATH} PS1=[\u@\h \W]\$ PYTHONPATH=/home/symphony/ros2/install/custom_message/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/symphony/ros2/build/simple_demo_cpp -- -j20 -l20
+[0.135s] Invoking command in '/home/symphony/ros2/build/simple_demo_cpp': AMENT_PREFIX_PATH=/home/symphony/ros2/install/custom_message:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/symphony/ros2/install/custom_message:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org LD_LIBRARY_PATH=/home/symphony/ros2/install/custom_message/lib:${LD_LIBRARY_PATH} PS1=[\u@\h \W]\$ PYTHONPATH=/home/symphony/ros2/install/custom_message/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/symphony/ros2/build/simple_demo_cpp
+[0.147s] -- Install configuration: ""
+[0.148s] -- Up-to-date: /home/symphony/ros2/install/simple_demo_cpp/lib/simple_demo_cpp/talker
+[0.148s] -- Up-to-date: /home/symphony/ros2/install/simple_demo_cpp/lib/simple_demo_cpp/listener
+[0.148s] -- Up-to-date: /home/symphony/ros2/install/simple_demo_cpp/share/ament_index/resource_index/package_run_dependencies/simple_demo_cpp
+[0.149s] -- Up-to-date: /home/symphony/ros2/install/simple_demo_cpp/share/ament_index/resource_index/parent_prefix_path/simple_demo_cpp
+[0.149s] -- Up-to-date: /home/symphony/ros2/install/simple_demo_cpp/share/simple_demo_cpp/environment/ament_prefix_path.sh
+[0.149s] -- Up-to-date: /home/symphony/ros2/install/simple_demo_cpp/share/simple_demo_cpp/environment/ament_prefix_path.dsv
+[0.149s] -- Up-to-date: /home/symphony/ros2/install/simple_demo_cpp/share/simple_demo_cpp/environment/path.sh
+[0.149s] -- Up-to-date: /home/symphony/ros2/install/simple_demo_cpp/share/simple_demo_cpp/environment/path.dsv
+[0.149s] -- Up-to-date: /home/symphony/ros2/install/simple_demo_cpp/share/simple_demo_cpp/local_setup.bash
+[0.149s] -- Up-to-date: /home/symphony/ros2/install/simple_demo_cpp/share/simple_demo_cpp/local_setup.sh
+[0.150s] -- Up-to-date: /home/symphony/ros2/install/simple_demo_cpp/share/simple_demo_cpp/local_setup.zsh
+[0.150s] -- Up-to-date: /home/symphony/ros2/install/simple_demo_cpp/share/simple_demo_cpp/local_setup.dsv
+[0.150s] -- Installing: /home/symphony/ros2/install/simple_demo_cpp/share/simple_demo_cpp/package.dsv
+[0.150s] -- Up-to-date: /home/symphony/ros2/install/simple_demo_cpp/share/ament_index/resource_index/packages/simple_demo_cpp
+[0.151s] -- Up-to-date: /home/symphony/ros2/install/simple_demo_cpp/share/simple_demo_cpp/cmake/simple_demo_cppConfig.cmake
+[0.151s] -- Up-to-date: /home/symphony/ros2/install/simple_demo_cpp/share/simple_demo_cpp/cmake/simple_demo_cppConfig-version.cmake
+[0.151s] -- Up-to-date: /home/symphony/ros2/install/simple_demo_cpp/share/simple_demo_cpp/package.xml
+[0.152s] Invoked command in '/home/symphony/ros2/build/simple_demo_cpp' returned '0': AMENT_PREFIX_PATH=/home/symphony/ros2/install/custom_message:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/symphony/ros2/install/custom_message:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org LD_LIBRARY_PATH=/home/symphony/ros2/install/custom_message/lib:${LD_LIBRARY_PATH} PS1=[\u@\h \W]\$ PYTHONPATH=/home/symphony/ros2/install/custom_message/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/symphony/ros2/build/simple_demo_cpp

@@ -1,0 +1,256 @@
+[0.086s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.086s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=20, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fd457b26c80>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fd457c643a0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fd457c643a0>>)
+[0.204s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.204s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.204s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.204s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.204s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.204s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.204s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/symphony/ros2'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_message) by extensions ['ignore', 'ignore_ament_install']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_message) by extension 'ignore'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_message) by extension 'ignore_ament_install'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_message) by extensions ['colcon_pkg']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_message) by extension 'colcon_pkg'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_message) by extensions ['colcon_meta']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_message) by extension 'colcon_meta'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_message) by extensions ['ros']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_message) by extension 'ros'
+[0.216s] DEBUG:colcon.colcon_core.package_identification:Package 'src/custom_message' with type 'ros.ament_cmake' and name 'custom_message'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/package_message) by extensions ['ignore', 'ignore_ament_install']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/package_message) by extension 'ignore'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/package_message) by extension 'ignore_ament_install'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/package_message) by extensions ['colcon_pkg']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/package_message) by extension 'colcon_pkg'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/package_message) by extensions ['colcon_meta']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/package_message) by extension 'colcon_meta'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/package_message) by extensions ['ros']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/package_message) by extension 'ros'
+[0.217s] DEBUG:colcon.colcon_core.package_identification:Package 'src/package_message' with type 'ros.ament_cmake' and name 'package_message'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_demo_cpp) by extensions ['ignore', 'ignore_ament_install']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_demo_cpp) by extension 'ignore'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_demo_cpp) by extension 'ignore_ament_install'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_demo_cpp) by extensions ['colcon_pkg']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_demo_cpp) by extension 'colcon_pkg'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_demo_cpp) by extensions ['colcon_meta']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_demo_cpp) by extension 'colcon_meta'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_demo_cpp) by extensions ['ros']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_demo_cpp) by extension 'ros'
+[0.218s] DEBUG:colcon.colcon_core.package_identification:Package 'src/simple_demo_cpp' with type 'ros.ament_cmake' and name 'simple_demo_cpp'
+[0.218s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.218s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.218s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.218s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.218s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.233s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.233s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.236s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 273 installed packages in /opt/ros/humble
+[0.237s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'custom_message' build argument 'cmake_args' from command line to 'None'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'custom_message' build argument 'cmake_target' from command line to 'None'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'custom_message' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'custom_message' build argument 'cmake_clean_cache' from command line to 'False'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'custom_message' build argument 'cmake_clean_first' from command line to 'False'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'custom_message' build argument 'cmake_force_configure' from command line to 'False'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'custom_message' build argument 'ament_cmake_args' from command line to 'None'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'custom_message' build argument 'catkin_cmake_args' from command line to 'None'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'custom_message' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.277s] DEBUG:colcon.colcon_core.verb:Building package 'custom_message' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/symphony/ros2/build/custom_message', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/symphony/ros2/install/custom_message', 'merge_install': False, 'path': '/home/symphony/ros2/src/custom_message', 'symlink_install': False, 'test_result_base': None}
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'package_message' build argument 'cmake_args' from command line to 'None'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'package_message' build argument 'cmake_target' from command line to 'None'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'package_message' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'package_message' build argument 'cmake_clean_cache' from command line to 'False'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'package_message' build argument 'cmake_clean_first' from command line to 'False'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'package_message' build argument 'cmake_force_configure' from command line to 'False'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'package_message' build argument 'ament_cmake_args' from command line to 'None'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'package_message' build argument 'catkin_cmake_args' from command line to 'None'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'package_message' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.277s] DEBUG:colcon.colcon_core.verb:Building package 'package_message' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/symphony/ros2/build/package_message', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/symphony/ros2/install/package_message', 'merge_install': False, 'path': '/home/symphony/ros2/src/package_message', 'symlink_install': False, 'test_result_base': None}
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'simple_demo_cpp' build argument 'cmake_args' from command line to 'None'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'simple_demo_cpp' build argument 'cmake_target' from command line to 'None'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'simple_demo_cpp' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'simple_demo_cpp' build argument 'cmake_clean_cache' from command line to 'False'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'simple_demo_cpp' build argument 'cmake_clean_first' from command line to 'False'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'simple_demo_cpp' build argument 'cmake_force_configure' from command line to 'False'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'simple_demo_cpp' build argument 'ament_cmake_args' from command line to 'None'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'simple_demo_cpp' build argument 'catkin_cmake_args' from command line to 'None'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'simple_demo_cpp' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.278s] DEBUG:colcon.colcon_core.verb:Building package 'simple_demo_cpp' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/symphony/ros2/build/simple_demo_cpp', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/symphony/ros2/install/simple_demo_cpp', 'merge_install': False, 'path': '/home/symphony/ros2/src/simple_demo_cpp', 'symlink_install': False, 'test_result_base': None}
+[0.278s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.278s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.279s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/symphony/ros2/src/custom_message' with build type 'ament_cmake'
+[0.279s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/symphony/ros2/src/custom_message'
+[0.281s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.281s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.281s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.289s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/symphony/ros2/build/custom_message': CMAKE_PREFIX_PATH=/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org PS1=[\u@\h \W]\$ /usr/bin/cmake --build /home/symphony/ros2/build/custom_message -- -j20 -l20
+[0.649s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/symphony/ros2/build/custom_message' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org PS1=[\u@\h \W]\$ /usr/bin/cmake --build /home/symphony/ros2/build/custom_message -- -j20 -l20
+[0.660s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/symphony/ros2/build/custom_message': CMAKE_PREFIX_PATH=/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org PS1=[\u@\h \W]\$ /usr/bin/cmake --install /home/symphony/ros2/build/custom_message
+[0.724s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(custom_message)
+[0.724s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/symphony/ros2/build/custom_message' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org PS1=[\u@\h \W]\$ /usr/bin/cmake --install /home/symphony/ros2/build/custom_message
+[0.727s] Level 1:colcon.colcon_core.environment:checking '/home/symphony/ros2/install/custom_message' for CMake module files
+[0.728s] Level 1:colcon.colcon_core.environment:checking '/home/symphony/ros2/install/custom_message' for CMake config files
+[0.728s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_message', 'cmake_prefix_path')
+[0.729s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/symphony/ros2/install/custom_message/share/custom_message/hook/cmake_prefix_path.ps1'
+[0.729s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/symphony/ros2/install/custom_message/share/custom_message/hook/cmake_prefix_path.dsv'
+[0.729s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/symphony/ros2/install/custom_message/share/custom_message/hook/cmake_prefix_path.sh'
+[0.730s] Level 1:colcon.colcon_core.environment:checking '/home/symphony/ros2/install/custom_message/lib'
+[0.730s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_message', 'ld_library_path_lib')
+[0.730s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/symphony/ros2/install/custom_message/share/custom_message/hook/ld_library_path_lib.ps1'
+[0.731s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/symphony/ros2/install/custom_message/share/custom_message/hook/ld_library_path_lib.dsv'
+[0.731s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/symphony/ros2/install/custom_message/share/custom_message/hook/ld_library_path_lib.sh'
+[0.731s] Level 1:colcon.colcon_core.environment:checking '/home/symphony/ros2/install/custom_message/bin'
+[0.731s] Level 1:colcon.colcon_core.environment:checking '/home/symphony/ros2/install/custom_message/lib/pkgconfig/custom_message.pc'
+[0.731s] Level 1:colcon.colcon_core.environment:checking '/home/symphony/ros2/install/custom_message/lib/python3.10/site-packages'
+[0.731s] Level 1:colcon.colcon_core.environment:checking '/home/symphony/ros2/install/custom_message/bin'
+[0.732s] INFO:colcon.colcon_core.shell:Creating package script '/home/symphony/ros2/install/custom_message/share/custom_message/package.ps1'
+[0.732s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/symphony/ros2/install/custom_message/share/custom_message/package.dsv'
+[0.733s] INFO:colcon.colcon_core.shell:Creating package script '/home/symphony/ros2/install/custom_message/share/custom_message/package.sh'
+[0.733s] INFO:colcon.colcon_core.shell:Creating package script '/home/symphony/ros2/install/custom_message/share/custom_message/package.bash'
+[0.734s] INFO:colcon.colcon_core.shell:Creating package script '/home/symphony/ros2/install/custom_message/share/custom_message/package.zsh'
+[0.734s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/symphony/ros2/install/custom_message/share/colcon-core/packages/custom_message)
+[0.735s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(custom_message)
+[0.735s] Level 1:colcon.colcon_core.environment:checking '/home/symphony/ros2/install/custom_message' for CMake module files
+[0.735s] Level 1:colcon.colcon_core.environment:checking '/home/symphony/ros2/install/custom_message' for CMake config files
+[0.736s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_message', 'cmake_prefix_path')
+[0.736s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/symphony/ros2/install/custom_message/share/custom_message/hook/cmake_prefix_path.ps1'
+[0.736s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/symphony/ros2/install/custom_message/share/custom_message/hook/cmake_prefix_path.dsv'
+[0.737s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/symphony/ros2/install/custom_message/share/custom_message/hook/cmake_prefix_path.sh'
+[0.737s] Level 1:colcon.colcon_core.environment:checking '/home/symphony/ros2/install/custom_message/lib'
+[0.737s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_message', 'ld_library_path_lib')
+[0.737s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/symphony/ros2/install/custom_message/share/custom_message/hook/ld_library_path_lib.ps1'
+[0.737s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/symphony/ros2/install/custom_message/share/custom_message/hook/ld_library_path_lib.dsv'
+[0.738s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/symphony/ros2/install/custom_message/share/custom_message/hook/ld_library_path_lib.sh'
+[0.738s] Level 1:colcon.colcon_core.environment:checking '/home/symphony/ros2/install/custom_message/bin'
+[0.738s] Level 1:colcon.colcon_core.environment:checking '/home/symphony/ros2/install/custom_message/lib/pkgconfig/custom_message.pc'
+[0.738s] Level 1:colcon.colcon_core.environment:checking '/home/symphony/ros2/install/custom_message/lib/python3.10/site-packages'
+[0.738s] Level 1:colcon.colcon_core.environment:checking '/home/symphony/ros2/install/custom_message/bin'
+[0.738s] INFO:colcon.colcon_core.shell:Creating package script '/home/symphony/ros2/install/custom_message/share/custom_message/package.ps1'
+[0.739s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/symphony/ros2/install/custom_message/share/custom_message/package.dsv'
+[0.739s] INFO:colcon.colcon_core.shell:Creating package script '/home/symphony/ros2/install/custom_message/share/custom_message/package.sh'
+[0.739s] INFO:colcon.colcon_core.shell:Creating package script '/home/symphony/ros2/install/custom_message/share/custom_message/package.bash'
+[0.740s] INFO:colcon.colcon_core.shell:Creating package script '/home/symphony/ros2/install/custom_message/share/custom_message/package.zsh'
+[0.740s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/symphony/ros2/install/custom_message/share/colcon-core/packages/custom_message)
+[0.740s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/symphony/ros2/src/package_message' with build type 'ament_cmake'
+[0.740s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/symphony/ros2/src/package_message'
+[0.740s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.740s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.744s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/symphony/ros2/src/simple_demo_cpp' with build type 'ament_cmake'
+[0.744s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/symphony/ros2/src/simple_demo_cpp'
+[0.744s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.744s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.754s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/symphony/ros2/build/package_message': AMENT_PREFIX_PATH=/home/symphony/ros2/install/custom_message:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/symphony/ros2/install/custom_message:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org LD_LIBRARY_PATH=/home/symphony/ros2/install/custom_message/lib:${LD_LIBRARY_PATH} PS1=[\u@\h \W]\$ PYTHONPATH=/home/symphony/ros2/install/custom_message/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/symphony/ros2/build/package_message -- -j20 -l20
+[0.763s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/symphony/ros2/build/simple_demo_cpp': AMENT_PREFIX_PATH=/home/symphony/ros2/install/custom_message:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/symphony/ros2/install/custom_message:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org LD_LIBRARY_PATH=/home/symphony/ros2/install/custom_message/lib:${LD_LIBRARY_PATH} PS1=[\u@\h \W]\$ PYTHONPATH=/home/symphony/ros2/install/custom_message/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/symphony/ros2/build/simple_demo_cpp -- -j20 -l20
+[0.889s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/symphony/ros2/build/simple_demo_cpp' returned '0': AMENT_PREFIX_PATH=/home/symphony/ros2/install/custom_message:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/symphony/ros2/install/custom_message:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org LD_LIBRARY_PATH=/home/symphony/ros2/install/custom_message/lib:${LD_LIBRARY_PATH} PS1=[\u@\h \W]\$ PYTHONPATH=/home/symphony/ros2/install/custom_message/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/symphony/ros2/build/simple_demo_cpp -- -j20 -l20
+[0.891s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/symphony/ros2/build/simple_demo_cpp': AMENT_PREFIX_PATH=/home/symphony/ros2/install/custom_message:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/symphony/ros2/install/custom_message:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org LD_LIBRARY_PATH=/home/symphony/ros2/install/custom_message/lib:${LD_LIBRARY_PATH} PS1=[\u@\h \W]\$ PYTHONPATH=/home/symphony/ros2/install/custom_message/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/symphony/ros2/build/simple_demo_cpp
+[0.907s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(simple_demo_cpp)
+[0.907s] Level 1:colcon.colcon_core.environment:checking '/home/symphony/ros2/install/simple_demo_cpp' for CMake module files
+[0.907s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/symphony/ros2/build/simple_demo_cpp' returned '0': AMENT_PREFIX_PATH=/home/symphony/ros2/install/custom_message:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/symphony/ros2/install/custom_message:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org LD_LIBRARY_PATH=/home/symphony/ros2/install/custom_message/lib:${LD_LIBRARY_PATH} PS1=[\u@\h \W]\$ PYTHONPATH=/home/symphony/ros2/install/custom_message/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/symphony/ros2/build/simple_demo_cpp
+[0.908s] Level 1:colcon.colcon_core.environment:checking '/home/symphony/ros2/install/simple_demo_cpp' for CMake config files
+[0.909s] Level 1:colcon.colcon_core.shell:create_environment_hook('simple_demo_cpp', 'cmake_prefix_path')
+[0.909s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/symphony/ros2/install/simple_demo_cpp/share/simple_demo_cpp/hook/cmake_prefix_path.ps1'
+[0.909s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/symphony/ros2/install/simple_demo_cpp/share/simple_demo_cpp/hook/cmake_prefix_path.dsv'
+[0.909s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/symphony/ros2/install/simple_demo_cpp/share/simple_demo_cpp/hook/cmake_prefix_path.sh'
+[0.910s] Level 1:colcon.colcon_core.environment:checking '/home/symphony/ros2/install/simple_demo_cpp/lib'
+[0.910s] Level 1:colcon.colcon_core.environment:checking '/home/symphony/ros2/install/simple_demo_cpp/bin'
+[0.910s] Level 1:colcon.colcon_core.environment:checking '/home/symphony/ros2/install/simple_demo_cpp/lib/pkgconfig/simple_demo_cpp.pc'
+[0.910s] Level 1:colcon.colcon_core.environment:checking '/home/symphony/ros2/install/simple_demo_cpp/lib/python3.10/site-packages'
+[0.910s] Level 1:colcon.colcon_core.environment:checking '/home/symphony/ros2/install/simple_demo_cpp/bin'
+[0.911s] INFO:colcon.colcon_core.shell:Creating package script '/home/symphony/ros2/install/simple_demo_cpp/share/simple_demo_cpp/package.ps1'
+[0.911s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/symphony/ros2/install/simple_demo_cpp/share/simple_demo_cpp/package.dsv'
+[0.912s] INFO:colcon.colcon_core.shell:Creating package script '/home/symphony/ros2/install/simple_demo_cpp/share/simple_demo_cpp/package.sh'
+[0.912s] INFO:colcon.colcon_core.shell:Creating package script '/home/symphony/ros2/install/simple_demo_cpp/share/simple_demo_cpp/package.bash'
+[0.912s] INFO:colcon.colcon_core.shell:Creating package script '/home/symphony/ros2/install/simple_demo_cpp/share/simple_demo_cpp/package.zsh'
+[0.912s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/symphony/ros2/install/simple_demo_cpp/share/colcon-core/packages/simple_demo_cpp)
+[0.913s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(simple_demo_cpp)
+[0.913s] Level 1:colcon.colcon_core.environment:checking '/home/symphony/ros2/install/simple_demo_cpp' for CMake module files
+[0.914s] Level 1:colcon.colcon_core.environment:checking '/home/symphony/ros2/install/simple_demo_cpp' for CMake config files
+[0.914s] Level 1:colcon.colcon_core.shell:create_environment_hook('simple_demo_cpp', 'cmake_prefix_path')
+[0.914s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/symphony/ros2/install/simple_demo_cpp/share/simple_demo_cpp/hook/cmake_prefix_path.ps1'
+[0.915s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/symphony/ros2/install/simple_demo_cpp/share/simple_demo_cpp/hook/cmake_prefix_path.dsv'
+[0.915s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/symphony/ros2/install/simple_demo_cpp/share/simple_demo_cpp/hook/cmake_prefix_path.sh'
+[0.915s] Level 1:colcon.colcon_core.environment:checking '/home/symphony/ros2/install/simple_demo_cpp/lib'
+[0.916s] Level 1:colcon.colcon_core.environment:checking '/home/symphony/ros2/install/simple_demo_cpp/bin'
+[0.916s] Level 1:colcon.colcon_core.environment:checking '/home/symphony/ros2/install/simple_demo_cpp/lib/pkgconfig/simple_demo_cpp.pc'
+[0.916s] Level 1:colcon.colcon_core.environment:checking '/home/symphony/ros2/install/simple_demo_cpp/lib/python3.10/site-packages'
+[0.916s] Level 1:colcon.colcon_core.environment:checking '/home/symphony/ros2/install/simple_demo_cpp/bin'
+[0.916s] INFO:colcon.colcon_core.shell:Creating package script '/home/symphony/ros2/install/simple_demo_cpp/share/simple_demo_cpp/package.ps1'
+[0.917s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/symphony/ros2/install/simple_demo_cpp/share/simple_demo_cpp/package.dsv'
+[0.917s] INFO:colcon.colcon_core.shell:Creating package script '/home/symphony/ros2/install/simple_demo_cpp/share/simple_demo_cpp/package.sh'
+[0.917s] INFO:colcon.colcon_core.shell:Creating package script '/home/symphony/ros2/install/simple_demo_cpp/share/simple_demo_cpp/package.bash'
+[0.918s] INFO:colcon.colcon_core.shell:Creating package script '/home/symphony/ros2/install/simple_demo_cpp/share/simple_demo_cpp/package.zsh'
+[0.918s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/symphony/ros2/install/simple_demo_cpp/share/colcon-core/packages/simple_demo_cpp)
+[3.348s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/symphony/ros2/build/package_message' returned '2': AMENT_PREFIX_PATH=/home/symphony/ros2/install/custom_message:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/symphony/ros2/install/custom_message:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org LD_LIBRARY_PATH=/home/symphony/ros2/install/custom_message/lib:${LD_LIBRARY_PATH} PS1=[\u@\h \W]\$ PYTHONPATH=/home/symphony/ros2/install/custom_message/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/symphony/ros2/build/package_message -- -j20 -l20
+[3.348s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(package_message)
+[3.348s] Level 1:colcon.colcon_core.environment:checking '/home/symphony/ros2/install/package_message' for CMake module files
+[3.349s] Level 1:colcon.colcon_core.environment:checking '/home/symphony/ros2/install/package_message' for CMake config files
+[3.349s] Level 1:colcon.colcon_core.shell:create_environment_hook('package_message', 'cmake_prefix_path')
+[3.349s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/symphony/ros2/install/package_message/share/package_message/hook/cmake_prefix_path.ps1'
+[3.350s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/symphony/ros2/install/package_message/share/package_message/hook/cmake_prefix_path.dsv'
+[3.350s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/symphony/ros2/install/package_message/share/package_message/hook/cmake_prefix_path.sh'
+[3.350s] Level 1:colcon.colcon_core.environment:checking '/home/symphony/ros2/install/package_message/bin'
+[3.350s] Level 1:colcon.colcon_core.environment:checking '/home/symphony/ros2/install/package_message/lib/pkgconfig/package_message.pc'
+[3.351s] Level 1:colcon.colcon_core.environment:checking '/home/symphony/ros2/install/package_message/lib/python3.10/site-packages'
+[3.351s] Level 1:colcon.colcon_core.environment:checking '/home/symphony/ros2/install/package_message/bin'
+[3.351s] INFO:colcon.colcon_core.shell:Creating package script '/home/symphony/ros2/install/package_message/share/package_message/package.ps1'
+[3.351s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/symphony/ros2/install/package_message/share/package_message/package.dsv'
+[3.352s] INFO:colcon.colcon_core.shell:Creating package script '/home/symphony/ros2/install/package_message/share/package_message/package.sh'
+[3.352s] INFO:colcon.colcon_core.shell:Creating package script '/home/symphony/ros2/install/package_message/share/package_message/package.bash'
+[3.352s] INFO:colcon.colcon_core.shell:Creating package script '/home/symphony/ros2/install/package_message/share/package_message/package.zsh'
+[3.353s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/symphony/ros2/install/package_message/share/colcon-core/packages/package_message)
+[3.363s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.363s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.363s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[3.363s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.374s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[3.374s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.374s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.374s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.376s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.376s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/symphony/ros2/install/local_setup.ps1'
+[3.379s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/symphony/ros2/install/_local_setup_util_ps1.py'
+[3.381s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/symphony/ros2/install/setup.ps1'
+[3.382s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/symphony/ros2/install/local_setup.sh'
+[3.384s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/symphony/ros2/install/_local_setup_util_sh.py'
+[3.385s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/symphony/ros2/install/setup.sh'
+[3.387s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/symphony/ros2/install/local_setup.bash'
+[3.388s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/symphony/ros2/install/setup.bash'
+[3.389s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/symphony/ros2/install/local_setup.zsh'
+[3.390s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/symphony/ros2/install/setup.zsh'

@@ -1,0 +1,280 @@
+[0.000000] (-) TimerEvent: {}
+[0.000273] (custom_message) JobQueued: {'identifier': 'custom_message', 'dependencies': OrderedDict()}
+[0.000312] (package_message) JobQueued: {'identifier': 'package_message', 'dependencies': OrderedDict([('custom_message', '/home/symphony/ros2/install/custom_message')])}
+[0.000327] (simple_demo_cpp) JobQueued: {'identifier': 'simple_demo_cpp', 'dependencies': OrderedDict([('custom_message', '/home/symphony/ros2/install/custom_message')])}
+[0.000338] (custom_message) JobStarted: {'identifier': 'custom_message'}
+[0.008480] (custom_message) JobProgress: {'identifier': 'custom_message', 'progress': 'cmake'}
+[0.008882] (custom_message) JobProgress: {'identifier': 'custom_message', 'progress': 'build'}
+[0.009320] (custom_message) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/symphony/ros2/build/custom_message', '--', '-j20', '-l20'], 'cwd': '/home/symphony/ros2/build/custom_message', 'env': OrderedDict([('MAIL', '/var/spool/mail/symphony'), ('HYPRLAND_CMD', 'Hyprland --watchdog-fd 4'), ('USER', 'symphony'), ('HYPRLAND_INSTANCE_SIGNATURE', 'efb50993780079460b0cbed1363e2166a2de1d9f_1792638764_439894819'), ('STARSHIP_SHELL', 'bash'), ('HOSTNAME', 'FatchulRizqi'), ('XDG_SESSION_TYPE', 'wayland'), ('XCURSOR_SIZE', '23'), ('XDG_CACHE_HOME', '/home/symphony/.cache'), ('SHLVL', '4'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/symphony'), ('TERMINFO', '/usr/lib/kitty/terminfo'), ('MOZ_ENABLE_WAYLAND', '1'), ('OLDPWD', '/home/symphony'), ('DESKTOP_SESSION', 'hyprland'), ('KITTY_INSTALLATION_DIR', '/usr/lib/kitty'), ('ROS_PYTHON_VERSION', '3'), ('PS1', '[\\u@\\h \\W]\\$'), ('KITTY_PID', '37595'), ('DISTROBOX_ENTER_PATH', '/usr/bin/distrobox-enter'), ('XDG_STATE_HOME', '/home/symphony/.local/state'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('QT_WAYLAND_DISABLE_WINDOWDECORATION', '1'), ('container', 'podman'), ('DEBUGINFOD_URLS', 'https://debuginfod.archlinux.org'), ('QT_QPA_PLATFORMTHEME', 'qt6ct'), ('WAYLAND_DISPLAY', 'wayland-1'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'symphony'), ('QT_AUTO_SCREEN_SCALE_FACTOR', '1.25'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERMINFO_DIRS', '/usr/share/terminfo:/run/host/usr/share/terminfo'), ('CLUTTER_BACKEND', 'wayland'), ('TERM', 'xterm-kitty'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('HL_INITIAL_WORKSPACE_TOKEN', '08e6d12e-340e-4af4-9030-5a590cc1cdf8'), ('PATH', '/opt/ros/humble/bin:/usr/local/bin:/usr/bin:/var/lib/flatpak/exports/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/home/symphony/.spicetify:/home/symphony/.spicetify:/usr/local/sbin:/usr/sbin:/usr/local/bin:/usr/bin:/sbin:/bin:/usr/local/sbin:/usr/sbin:/sbin:/bin:/home/symphony/.spicetify:/home/symphony/.spicetify'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'wayland,x11,*'), ('DISPLAY', ':1'), ('HYPRCURSOR_SIZE', '23'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Hyprland'), ('XDG_DATA_HOME', '/home/symphony/.local/share'), ('XDG_CONFIG_HOME', '/home/symphony/.config'), ('LIBVA_DRIVER_NAME', 'nvidia'), ('XDG_SESSION_DESKTOP', 'Hyprland'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/usr/bin/bash'), ('SDL_VIDEODRIVER', 'wayland'), ('KITTY_WINDOW_ID', '1'), ('VSSCRIPT_PATH', '/usr/lib/python3.14/site-packages/vapoursynth/libvsscript.so'), ('PWD', '/home/symphony/ros2/build/custom_message'), ('CONTAINER_ID', 'ros2-box'), ('QT_QPA_PLATFORM', 'wayland;xcb'), ('XDG_CONFIG_DIRS', '/etc/xdg'), ('XDG_BACKEND', 'wayland'), ('XDG_DATA_DIRS', '/home/symphony/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share'), ('STARSHIP_SESSION_KEY', '8523103801682332'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.082454] (custom_message) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target custom_message__rosidl_generator_c\x1b[0m\n'}
+[0.098769] (custom_message) StdoutLine: {'line': b'[  3%] Built target custom_message__cpp\n'}
+[0.099430] (-) TimerEvent: {}
+[0.099629] (custom_message) StdoutLine: {'line': b'[  6%] Built target custom_message__rs\n'}
+[0.101293] (custom_message) StdoutLine: {'line': b'[ 15%] Built target custom_message__rosidl_generator_c\n'}
+[0.126019] (custom_message) StdoutLine: {'line': b'[ 15%] Built target ament_cmake_python_copy_custom_message\n'}
+[0.126153] (custom_message) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target custom_message__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[0.126193] (custom_message) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target custom_message__rosidl_typesupport_cpp\x1b[0m\n'}
+[0.126260] (custom_message) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target custom_message__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[0.128564] (custom_message) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target custom_message__rosidl_typesupport_c\x1b[0m\n'}
+[0.128983] (custom_message) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target custom_message__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[0.129190] (custom_message) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target custom_message__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[0.162661] (custom_message) StdoutLine: {'line': b'[ 25%] Built target custom_message__rosidl_typesupport_c\n'}
+[0.164125] (custom_message) StdoutLine: {'line': b'[ 37%] Built target custom_message__rosidl_typesupport_introspection_c\n'}
+[0.164276] (custom_message) StdoutLine: {'line': b'[ 43%] Built target custom_message__rosidl_typesupport_cpp\n'}
+[0.166396] (custom_message) StdoutLine: {'line': b'[ 53%] Built target custom_message__rosidl_typesupport_introspection_cpp\n'}
+[0.166795] (custom_message) StdoutLine: {'line': b'[ 65%] Built target custom_message__rosidl_typesupport_fastrtps_c\n'}
+[0.166907] (custom_message) StdoutLine: {'line': b'[ 71%] Built target custom_message__rosidl_typesupport_fastrtps_cpp\n'}
+[0.188866] (custom_message) StdoutLine: {'line': b'[ 71%] Built target custom_message\n'}
+[0.199525] (-) TimerEvent: {}
+[0.213152] (custom_message) StdoutLine: {'line': b'[ 75%] Built target custom_message__py\n'}
+[0.224652] (custom_message) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target custom_message__rosidl_generator_py\x1b[0m\n'}
+[0.239068] (custom_message) StdoutLine: {'line': b'[ 81%] Built target custom_message__rosidl_generator_py\n'}
+[0.256880] (custom_message) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target custom_message__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[0.257047] (custom_message) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target custom_message__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[0.257217] (custom_message) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target custom_message__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[0.278583] (custom_message) StdoutLine: {'line': b'[ 87%] Built target custom_message__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.279363] (custom_message) StdoutLine: {'line': b'[100%] Built target custom_message__rosidl_typesupport_c__pyext\n'}
+[0.279455] (custom_message) StdoutLine: {'line': b'[100%] Built target custom_message__rosidl_typesupport_introspection_c__pyext\n'}
+[0.299597] (-) TimerEvent: {}
+[0.349380] (custom_message) StdoutLine: {'line': b'running egg_info\n'}
+[0.349732] (custom_message) StdoutLine: {'line': b'writing custom_message.egg-info/PKG-INFO\n'}
+[0.349888] (custom_message) StdoutLine: {'line': b'writing dependency_links to custom_message.egg-info/dependency_links.txt\n'}
+[0.349939] (custom_message) StdoutLine: {'line': b'writing top-level names to custom_message.egg-info/top_level.txt\n'}
+[0.351152] (custom_message) StdoutLine: {'line': b"reading manifest file 'custom_message.egg-info/SOURCES.txt'\n"}
+[0.351478] (custom_message) StdoutLine: {'line': b"writing manifest file 'custom_message.egg-info/SOURCES.txt'\n"}
+[0.373299] (custom_message) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_custom_message_egg\n'}
+[0.384441] (custom_message) CommandEnded: {'returncode': 0}
+[0.385288] (custom_message) JobProgress: {'identifier': 'custom_message', 'progress': 'install'}
+[0.399163] (custom_message) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/symphony/ros2/build/custom_message'], 'cwd': '/home/symphony/ros2/build/custom_message', 'env': OrderedDict([('MAIL', '/var/spool/mail/symphony'), ('HYPRLAND_CMD', 'Hyprland --watchdog-fd 4'), ('USER', 'symphony'), ('HYPRLAND_INSTANCE_SIGNATURE', 'efb50993780079460b0cbed1363e2166a2de1d9f_1792638764_439894819'), ('STARSHIP_SHELL', 'bash'), ('HOSTNAME', 'FatchulRizqi'), ('XDG_SESSION_TYPE', 'wayland'), ('XCURSOR_SIZE', '23'), ('XDG_CACHE_HOME', '/home/symphony/.cache'), ('SHLVL', '4'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/symphony'), ('TERMINFO', '/usr/lib/kitty/terminfo'), ('MOZ_ENABLE_WAYLAND', '1'), ('OLDPWD', '/home/symphony'), ('DESKTOP_SESSION', 'hyprland'), ('KITTY_INSTALLATION_DIR', '/usr/lib/kitty'), ('ROS_PYTHON_VERSION', '3'), ('PS1', '[\\u@\\h \\W]\\$'), ('KITTY_PID', '37595'), ('DISTROBOX_ENTER_PATH', '/usr/bin/distrobox-enter'), ('XDG_STATE_HOME', '/home/symphony/.local/state'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('QT_WAYLAND_DISABLE_WINDOWDECORATION', '1'), ('container', 'podman'), ('DEBUGINFOD_URLS', 'https://debuginfod.archlinux.org'), ('QT_QPA_PLATFORMTHEME', 'qt6ct'), ('WAYLAND_DISPLAY', 'wayland-1'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'symphony'), ('QT_AUTO_SCREEN_SCALE_FACTOR', '1.25'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERMINFO_DIRS', '/usr/share/terminfo:/run/host/usr/share/terminfo'), ('CLUTTER_BACKEND', 'wayland'), ('TERM', 'xterm-kitty'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('HL_INITIAL_WORKSPACE_TOKEN', '08e6d12e-340e-4af4-9030-5a590cc1cdf8'), ('PATH', '/opt/ros/humble/bin:/usr/local/bin:/usr/bin:/var/lib/flatpak/exports/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/home/symphony/.spicetify:/home/symphony/.spicetify:/usr/local/sbin:/usr/sbin:/usr/local/bin:/usr/bin:/sbin:/bin:/usr/local/sbin:/usr/sbin:/sbin:/bin:/home/symphony/.spicetify:/home/symphony/.spicetify'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'wayland,x11,*'), ('DISPLAY', ':1'), ('HYPRCURSOR_SIZE', '23'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Hyprland'), ('XDG_DATA_HOME', '/home/symphony/.local/share'), ('XDG_CONFIG_HOME', '/home/symphony/.config'), ('LIBVA_DRIVER_NAME', 'nvidia'), ('XDG_SESSION_DESKTOP', 'Hyprland'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/usr/bin/bash'), ('SDL_VIDEODRIVER', 'wayland'), ('KITTY_WINDOW_ID', '1'), ('VSSCRIPT_PATH', '/usr/lib/python3.14/site-packages/vapoursynth/libvsscript.so'), ('PWD', '/home/symphony/ros2/build/custom_message'), ('CONTAINER_ID', 'ros2-box'), ('QT_QPA_PLATFORM', 'wayland;xcb'), ('XDG_CONFIG_DIRS', '/etc/xdg'), ('XDG_BACKEND', 'wayland'), ('XDG_DATA_DIRS', '/home/symphony/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share'), ('STARSHIP_SESSION_KEY', '8523103801682332'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.399830] (-) TimerEvent: {}
+[0.413898] (custom_message) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.414132] (custom_message) StdoutLine: {'line': b'-- Up-to-date: /home/symphony/ros2/install/custom_message/share/ament_index/resource_index/rosidl_interfaces/custom_message\n'}
+[0.414305] (custom_message) StdoutLine: {'line': b'-- Up-to-date: /home/symphony/ros2/install/custom_message/include/custom_message/custom_message\n'}
+[0.414435] (custom_message) StdoutLine: {'line': b'-- Up-to-date: /home/symphony/ros2/install/custom_message/include/custom_message/custom_message/msg\n'}
+[0.414568] (custom_message) StdoutLine: {'line': b'-- Up-to-date: /home/symphony/ros2/install/custom_message/include/custom_message/custom_message/msg/rosidl_generator_c__visibility_control.h\n'}
+[0.414661] (custom_message) StdoutLine: {'line': b'-- Up-to-date: /home/symphony/ros2/install/custom_message/include/custom_message/custom_message/msg/detail\n'}
+[0.414766] (custom_message) StdoutLine: {'line': b'-- Up-to-date: /home/symphony/ros2/install/custom_message/include/custom_message/custom_message/msg/detail/controller__functions.c\n'}
+[0.414872] (custom_message) StdoutLine: {'line': b'-- Up-to-date: /home/symphony/ros2/install/custom_message/include/custom_message/custom_message/msg/detail/controller__type_support.h\n'}
+[0.414975] (custom_message) StdoutLine: {'line': b'-- Up-to-date: /home/symphony/ros2/install/custom_message/include/custom_message/custom_message/msg/detail/controller__struct.h\n'}
+[0.415078] (custom_message) StdoutLine: {'line': b'-- Up-to-date: /home/symphony/ros2/install/custom_message/include/custom_message/custom_message/msg/detail/controller__functions.h\n'}
+[0.415186] (custom_message) StdoutLine: {'line': b'-- Up-to-date: /home/symphony/ros2/install/custom_message/include/custom_message/custom_message/msg/controller.h\n'}
+[0.415310] (custom_message) StdoutLine: {'line': b'-- Up-to-date: /home/symphony/ros2/install/custom_message/share/custom_message/environment/library_path.sh\n'}
+[0.415457] (custom_message) StdoutLine: {'line': b'-- Up-to-date: /home/symphony/ros2/install/custom_message/share/custom_message/environment/library_path.dsv\n'}
+[0.415784] (custom_message) StdoutLine: {'line': b'-- Up-to-date: /home/symphony/ros2/install/custom_message/lib/libcustom_message__rosidl_generator_c.so\n'}
+[0.416017] (custom_message) StdoutLine: {'line': b'-- Up-to-date: /home/symphony/ros2/install/custom_message/include/custom_message/custom_message\n'}
+[0.416124] (custom_message) StdoutLine: {'line': b'-- Up-to-date: /home/symphony/ros2/install/custom_message/include/custom_message/custom_message/msg\n'}
+[0.416238] (custom_message) StdoutLine: {'line': b'-- Up-to-date: /home/symphony/ros2/install/custom_message/include/custom_message/custom_message/msg/detail\n'}
+[0.416366] (custom_message) StdoutLine: {'line': b'-- Up-to-date: /home/symphony/ros2/install/custom_message/include/custom_message/custom_message/msg/detail/controller__rosidl_typesupport_fastrtps_c.h\n'}
+[0.416455] (custom_message) StdoutLine: {'line': b'-- Up-to-date: /home/symphony/ros2/install/custom_message/include/custom_message/custom_message/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[0.416688] (custom_message) StdoutLine: {'line': b'-- Up-to-date: /home/symphony/ros2/install/custom_message/lib/libcustom_message__rosidl_typesupport_fastrtps_c.so\n'}
+[0.416919] (custom_message) StdoutLine: {'line': b'-- Up-to-date: /home/symphony/ros2/install/custom_message/include/custom_message/custom_message\n'}
+[0.417022] (custom_message) StdoutLine: {'line': b'-- Up-to-date: /home/symphony/ros2/install/custom_message/include/custom_message/custom_message/msg\n'}
+[0.417142] (custom_message) StdoutLine: {'line': b'-- Up-to-date: /home/symphony/ros2/install/custom_message/include/custom_message/custom_message/msg/controller.hpp\n'}
+[0.417239] (custom_message) StdoutLine: {'line': b'-- Up-to-date: /home/symphony/ros2/install/custom_message/include/custom_message/custom_message/msg/detail\n'}
+[0.417345] (custom_message) StdoutLine: {'line': b'-- Up-to-date: /home/symphony/ros2/install/custom_message/include/custom_message/custom_message/msg/detail/controller__type_support.hpp\n'}
+[0.417441] (custom_message) StdoutLine: {'line': b'-- Up-to-date: /home/symphony/ros2/install/custom_message/include/custom_message/custom_message/msg/detail/controller__struct.hpp\n'}
+[0.417532] (custom_message) StdoutLine: {'line': b'-- Up-to-date: /home/symphony/ros2/install/custom_message/include/custom_message/custom_message/msg/detail/controller__builder.hpp\n'}
+[0.417618] (custom_message) StdoutLine: {'line': b'-- Up-to-date: /home/symphony/ros2/install/custom_message/include/custom_message/custom_message/msg/detail/controller__traits.hpp\n'}
+[0.417703] (custom_message) StdoutLine: {'line': b'-- Up-to-date: /home/symphony/ros2/install/custom_message/include/custom_message/custom_message/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[0.417823] (custom_message) StdoutLine: {'line': b'-- Up-to-date: /home/symphony/ros2/install/custom_message/include/custom_message/custom_message\n'}
+[0.417909] (custom_message) StdoutLine: {'line': b'-- Up-to-date: /home/symphony/ros2/install/custom_message/include/custom_message/custom_message/msg\n'}
+[0.418001] (custom_message) StdoutLine: {'line': b'-- Up-to-date: /home/symphony/ros2/install/custom_message/include/custom_message/custom_message/msg/detail\n'}
+[0.418101] (custom_message) StdoutLine: {'line': b'-- Up-to-date: /home/symphony/ros2/install/custom_message/include/custom_message/custom_message/msg/detail/controller__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.418178] (custom_message) StdoutLine: {'line': b'-- Up-to-date: /home/symphony/ros2/install/custom_message/include/custom_message/custom_message/msg/detail/dds_fastrtps\n'}
+[0.418275] (custom_message) StdoutLine: {'line': b'-- Up-to-date: /home/symphony/ros2/install/custom_message/include/custom_message/custom_message/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[0.418480] (custom_message) StdoutLine: {'line': b'-- Up-to-date: /home/symphony/ros2/install/custom_message/lib/libcustom_message__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.418685] (custom_message) StdoutLine: {'line': b'-- Up-to-date: /home/symphony/ros2/install/custom_message/include/custom_message/custom_message\n'}
+[0.418779] (custom_message) StdoutLine: {'line': b'-- Up-to-date: /home/symphony/ros2/install/custom_message/include/custom_message/custom_message/msg\n'}
+[0.418882] (custom_message) StdoutLine: {'line': b'-- Up-to-date: /home/symphony/ros2/install/custom_message/include/custom_message/custom_message/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[0.418954] (custom_message) StdoutLine: {'line': b'-- Up-to-date: /home/symphony/ros2/install/custom_message/include/custom_message/custom_message/msg/detail\n'}
+[0.419048] (custom_message) StdoutLine: {'line': b'-- Up-to-date: /home/symphony/ros2/install/custom_message/include/custom_message/custom_message/msg/detail/controller__rosidl_typesupport_introspection_c.h\n'}
+[0.419125] (custom_message) StdoutLine: {'line': b'-- Up-to-date: /home/symphony/ros2/install/custom_message/include/custom_message/custom_message/msg/detail/controller__type_support.c\n'}
+[0.419443] (custom_message) StdoutLine: {'line': b'-- Up-to-date: /home/symphony/ros2/install/custom_message/lib/libcustom_message__rosidl_typesupport_introspection_c.so\n'}
+[0.419801] (custom_message) StdoutLine: {'line': b'-- Up-to-date: /home/symphony/ros2/install/custom_message/lib/libcustom_message__rosidl_typesupport_c.so\n'}
+[0.419888] (custom_message) StdoutLine: {'line': b'-- Up-to-date: /home/symphony/ros2/install/custom_message/include/custom_message/custom_message\n'}
+[0.420052] (custom_message) StdoutLine: {'line': b'-- Up-to-date: /home/symphony/ros2/install/custom_message/include/custom_message/custom_message/msg\n'}
+[0.420107] (custom_message) StdoutLine: {'line': b'-- Up-to-date: /home/symphony/ros2/install/custom_message/include/custom_message/custom_message/msg/detail\n'}
+[0.420202] (custom_message) StdoutLine: {'line': b'-- Up-to-date: /home/symphony/ros2/install/custom_message/include/custom_message/custom_message/msg/detail/controller__type_support.cpp\n'}
+[0.420253] (custom_message) StdoutLine: {'line': b'-- Up-to-date: /home/symphony/ros2/install/custom_message/include/custom_message/custom_message/msg/detail/controller__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.420438] (custom_message) StdoutLine: {'line': b'-- Up-to-date: /home/symphony/ros2/install/custom_message/lib/libcustom_message__rosidl_typesupport_introspection_cpp.so\n'}
+[0.420616] (custom_message) StdoutLine: {'line': b'-- Up-to-date: /home/symphony/ros2/install/custom_message/lib/libcustom_message__rosidl_typesupport_cpp.so\n'}
+[0.420771] (custom_message) StdoutLine: {'line': b'-- Up-to-date: /home/symphony/ros2/install/custom_message/share/custom_message/environment/pythonpath.sh\n'}
+[0.420817] (custom_message) StdoutLine: {'line': b'-- Up-to-date: /home/symphony/ros2/install/custom_message/share/custom_message/environment/pythonpath.dsv\n'}
+[0.420934] (custom_message) StdoutLine: {'line': b'-- Up-to-date: /home/symphony/ros2/install/custom_message/local/lib/python3.10/dist-packages/custom_message-0.0.0-py3.10.egg-info\n'}
+[0.420987] (custom_message) StdoutLine: {'line': b'-- Installing: /home/symphony/ros2/install/custom_message/local/lib/python3.10/dist-packages/custom_message-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[0.421131] (custom_message) StdoutLine: {'line': b'-- Installing: /home/symphony/ros2/install/custom_message/local/lib/python3.10/dist-packages/custom_message-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[0.421319] (custom_message) StdoutLine: {'line': b'-- Installing: /home/symphony/ros2/install/custom_message/local/lib/python3.10/dist-packages/custom_message-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[0.421497] (custom_message) StdoutLine: {'line': b'-- Installing: /home/symphony/ros2/install/custom_message/local/lib/python3.10/dist-packages/custom_message-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[0.421695] (custom_message) StdoutLine: {'line': b'-- Up-to-date: /home/symphony/ros2/install/custom_message/local/lib/python3.10/dist-packages/custom_message\n'}
+[0.421776] (custom_message) StdoutLine: {'line': b'-- Up-to-date: /home/symphony/ros2/install/custom_message/local/lib/python3.10/dist-packages/custom_message/libcustom_message__rosidl_generator_py.so\n'}
+[0.421860] (custom_message) StdoutLine: {'line': b'-- Up-to-date: /home/symphony/ros2/install/custom_message/local/lib/python3.10/dist-packages/custom_message/custom_message_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.421921] (custom_message) StdoutLine: {'line': b'-- Up-to-date: /home/symphony/ros2/install/custom_message/local/lib/python3.10/dist-packages/custom_message/custom_message_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.421980] (custom_message) StdoutLine: {'line': b'-- Up-to-date: /home/symphony/ros2/install/custom_message/local/lib/python3.10/dist-packages/custom_message/_custom_message_s.ep.rosidl_typesupport_c.c\n'}
+[0.422038] (custom_message) StdoutLine: {'line': b'-- Up-to-date: /home/symphony/ros2/install/custom_message/local/lib/python3.10/dist-packages/custom_message/__init__.py\n'}
+[0.422096] (custom_message) StdoutLine: {'line': b'-- Up-to-date: /home/symphony/ros2/install/custom_message/local/lib/python3.10/dist-packages/custom_message/msg\n'}
+[0.422169] (custom_message) StdoutLine: {'line': b'-- Up-to-date: /home/symphony/ros2/install/custom_message/local/lib/python3.10/dist-packages/custom_message/msg/__init__.py\n'}
+[0.422237] (custom_message) StdoutLine: {'line': b'-- Up-to-date: /home/symphony/ros2/install/custom_message/local/lib/python3.10/dist-packages/custom_message/msg/_controller.py\n'}
+[0.422431] (custom_message) StdoutLine: {'line': b'-- Up-to-date: /home/symphony/ros2/install/custom_message/local/lib/python3.10/dist-packages/custom_message/msg/_controller_s.c\n'}
+[0.422525] (custom_message) StdoutLine: {'line': b'-- Up-to-date: /home/symphony/ros2/install/custom_message/local/lib/python3.10/dist-packages/custom_message/_custom_message_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[0.422622] (custom_message) StdoutLine: {'line': b'-- Up-to-date: /home/symphony/ros2/install/custom_message/local/lib/python3.10/dist-packages/custom_message/custom_message_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.422719] (custom_message) StdoutLine: {'line': b'-- Up-to-date: /home/symphony/ros2/install/custom_message/local/lib/python3.10/dist-packages/custom_message/_custom_message_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[0.451849] (custom_message) StdoutLine: {'line': b"Listing '/home/symphony/ros2/install/custom_message/local/lib/python3.10/dist-packages/custom_message'...\n"}
+[0.451914] (custom_message) StdoutLine: {'line': b"Listing '/home/symphony/ros2/install/custom_message/local/lib/python3.10/dist-packages/custom_message/msg'...\n"}
+[0.454949] (custom_message) StdoutLine: {'line': b'-- Up-to-date: /home/symphony/ros2/install/custom_message/local/lib/python3.10/dist-packages/custom_message/custom_message_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.455180] (custom_message) StdoutLine: {'line': b'-- Up-to-date: /home/symphony/ros2/install/custom_message/local/lib/python3.10/dist-packages/custom_message/custom_message_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.455449] (custom_message) StdoutLine: {'line': b'-- Up-to-date: /home/symphony/ros2/install/custom_message/local/lib/python3.10/dist-packages/custom_message/custom_message_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.455709] (custom_message) StdoutLine: {'line': b'-- Up-to-date: /home/symphony/ros2/install/custom_message/lib/libcustom_message__rosidl_generator_py.so\n'}
+[0.455881] (custom_message) StdoutLine: {'line': b'-- Up-to-date: /home/symphony/ros2/install/custom_message/share/custom_message/rust\n'}
+[0.455956] (custom_message) StdoutLine: {'line': b'-- Up-to-date: /home/symphony/ros2/install/custom_message/share/custom_message/rust/Cargo.toml\n'}
+[0.456038] (custom_message) StdoutLine: {'line': b'-- Up-to-date: /home/symphony/ros2/install/custom_message/share/custom_message/rust/build.rs\n'}
+[0.456083] (custom_message) StdoutLine: {'line': b'-- Up-to-date: /home/symphony/ros2/install/custom_message/share/custom_message/rust/src\n'}
+[0.456169] (custom_message) StdoutLine: {'line': b'-- Up-to-date: /home/symphony/ros2/install/custom_message/share/custom_message/rust/src/lib.rs\n'}
+[0.456219] (custom_message) StdoutLine: {'line': b'-- Up-to-date: /home/symphony/ros2/install/custom_message/share/custom_message/rust/src/msg.rs\n'}
+[0.456278] (custom_message) StdoutLine: {'line': b'-- Up-to-date: /home/symphony/ros2/install/custom_message/share/custom_message/rust/src/msg\n'}
+[0.456338] (custom_message) StdoutLine: {'line': b'-- Up-to-date: /home/symphony/ros2/install/custom_message/share/custom_message/rust/src/msg/rmw.rs\n'}
+[0.456415] (custom_message) StdoutLine: {'line': b'-- Up-to-date: /home/symphony/ros2/install/custom_message/share/custom_message/msg/Controller.idl\n'}
+[0.456505] (custom_message) StdoutLine: {'line': b'-- Up-to-date: /home/symphony/ros2/install/custom_message/share/custom_message/msg/Controller.msg\n'}
+[0.456597] (custom_message) StdoutLine: {'line': b'-- Up-to-date: /home/symphony/ros2/install/custom_message/share/ament_index/resource_index/package_run_dependencies/custom_message\n'}
+[0.456687] (custom_message) StdoutLine: {'line': b'-- Up-to-date: /home/symphony/ros2/install/custom_message/share/ament_index/resource_index/parent_prefix_path/custom_message\n'}
+[0.456776] (custom_message) StdoutLine: {'line': b'-- Up-to-date: /home/symphony/ros2/install/custom_message/share/custom_message/environment/ament_prefix_path.sh\n'}
+[0.456865] (custom_message) StdoutLine: {'line': b'-- Up-to-date: /home/symphony/ros2/install/custom_message/share/custom_message/environment/ament_prefix_path.dsv\n'}
+[0.456952] (custom_message) StdoutLine: {'line': b'-- Up-to-date: /home/symphony/ros2/install/custom_message/share/custom_message/environment/path.sh\n'}
+[0.457043] (custom_message) StdoutLine: {'line': b'-- Up-to-date: /home/symphony/ros2/install/custom_message/share/custom_message/environment/path.dsv\n'}
+[0.457130] (custom_message) StdoutLine: {'line': b'-- Up-to-date: /home/symphony/ros2/install/custom_message/share/custom_message/local_setup.bash\n'}
+[0.457219] (custom_message) StdoutLine: {'line': b'-- Up-to-date: /home/symphony/ros2/install/custom_message/share/custom_message/local_setup.sh\n'}
+[0.457309] (custom_message) StdoutLine: {'line': b'-- Up-to-date: /home/symphony/ros2/install/custom_message/share/custom_message/local_setup.zsh\n'}
+[0.457396] (custom_message) StdoutLine: {'line': b'-- Up-to-date: /home/symphony/ros2/install/custom_message/share/custom_message/local_setup.dsv\n'}
+[0.457480] (custom_message) StdoutLine: {'line': b'-- Installing: /home/symphony/ros2/install/custom_message/share/custom_message/package.dsv\n'}
+[0.457740] (custom_message) StdoutLine: {'line': b'-- Up-to-date: /home/symphony/ros2/install/custom_message/share/ament_index/resource_index/packages/custom_message\n'}
+[0.457891] (custom_message) StdoutLine: {'line': b'-- Up-to-date: /home/symphony/ros2/install/custom_message/share/custom_message/cmake/export_custom_message__rosidl_generator_cExport.cmake\n'}
+[0.457985] (custom_message) StdoutLine: {'line': b'-- Up-to-date: /home/symphony/ros2/install/custom_message/share/custom_message/cmake/export_custom_message__rosidl_generator_cExport-noconfig.cmake\n'}
+[0.458122] (custom_message) StdoutLine: {'line': b'-- Up-to-date: /home/symphony/ros2/install/custom_message/share/custom_message/cmake/export_custom_message__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[0.458233] (custom_message) StdoutLine: {'line': b'-- Up-to-date: /home/symphony/ros2/install/custom_message/share/custom_message/cmake/export_custom_message__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[0.458463] (custom_message) StdoutLine: {'line': b'-- Up-to-date: /home/symphony/ros2/install/custom_message/share/custom_message/cmake/export_custom_message__rosidl_generator_cppExport.cmake\n'}
+[0.458533] (custom_message) StdoutLine: {'line': b'-- Up-to-date: /home/symphony/ros2/install/custom_message/share/custom_message/cmake/export_custom_message__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[0.458600] (custom_message) StdoutLine: {'line': b'-- Up-to-date: /home/symphony/ros2/install/custom_message/share/custom_message/cmake/export_custom_message__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[0.458712] (custom_message) StdoutLine: {'line': b'-- Up-to-date: /home/symphony/ros2/install/custom_message/share/custom_message/cmake/custom_message__rosidl_typesupport_introspection_cExport.cmake\n'}
+[0.458780] (custom_message) StdoutLine: {'line': b'-- Up-to-date: /home/symphony/ros2/install/custom_message/share/custom_message/cmake/custom_message__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[0.458889] (custom_message) StdoutLine: {'line': b'-- Up-to-date: /home/symphony/ros2/install/custom_message/share/custom_message/cmake/custom_message__rosidl_typesupport_cExport.cmake\n'}
+[0.458954] (custom_message) StdoutLine: {'line': b'-- Up-to-date: /home/symphony/ros2/install/custom_message/share/custom_message/cmake/custom_message__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[0.459064] (custom_message) StdoutLine: {'line': b'-- Up-to-date: /home/symphony/ros2/install/custom_message/share/custom_message/cmake/custom_message__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[0.459128] (custom_message) StdoutLine: {'line': b'-- Up-to-date: /home/symphony/ros2/install/custom_message/share/custom_message/cmake/custom_message__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[0.459240] (custom_message) StdoutLine: {'line': b'-- Up-to-date: /home/symphony/ros2/install/custom_message/share/custom_message/cmake/custom_message__rosidl_typesupport_cppExport.cmake\n'}
+[0.459304] (custom_message) StdoutLine: {'line': b'-- Up-to-date: /home/symphony/ros2/install/custom_message/share/custom_message/cmake/custom_message__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[0.459410] (custom_message) StdoutLine: {'line': b'-- Up-to-date: /home/symphony/ros2/install/custom_message/share/custom_message/cmake/export_custom_message__rosidl_generator_pyExport.cmake\n'}
+[0.459472] (custom_message) StdoutLine: {'line': b'-- Up-to-date: /home/symphony/ros2/install/custom_message/share/custom_message/cmake/export_custom_message__rosidl_generator_pyExport-noconfig.cmake\n'}
+[0.459536] (custom_message) StdoutLine: {'line': b'-- Up-to-date: /home/symphony/ros2/install/custom_message/share/custom_message/cmake/rosidl_cmake-extras.cmake\n'}
+[0.459608] (custom_message) StdoutLine: {'line': b'-- Up-to-date: /home/symphony/ros2/install/custom_message/share/custom_message/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.459671] (custom_message) StdoutLine: {'line': b'-- Up-to-date: /home/symphony/ros2/install/custom_message/share/custom_message/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.459734] (custom_message) StdoutLine: {'line': b'-- Up-to-date: /home/symphony/ros2/install/custom_message/share/custom_message/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[0.459796] (custom_message) StdoutLine: {'line': b'-- Up-to-date: /home/symphony/ros2/install/custom_message/share/custom_message/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[0.459858] (custom_message) StdoutLine: {'line': b'-- Up-to-date: /home/symphony/ros2/install/custom_message/share/custom_message/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[0.459920] (custom_message) StdoutLine: {'line': b'-- Up-to-date: /home/symphony/ros2/install/custom_message/share/custom_message/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[0.459984] (custom_message) StdoutLine: {'line': b'-- Up-to-date: /home/symphony/ros2/install/custom_message/share/custom_message/cmake/rosidl_cmake_aggregate_target-extras.cmake\n'}
+[0.460047] (custom_message) StdoutLine: {'line': b'-- Up-to-date: /home/symphony/ros2/install/custom_message/share/custom_message/cmake/custom_messageConfig.cmake\n'}
+[0.460092] (custom_message) StdoutLine: {'line': b'-- Up-to-date: /home/symphony/ros2/install/custom_message/share/custom_message/cmake/custom_messageConfig-version.cmake\n'}
+[0.460156] (custom_message) StdoutLine: {'line': b'-- Up-to-date: /home/symphony/ros2/install/custom_message/share/custom_message/package.xml\n'}
+[0.462125] (custom_message) CommandEnded: {'returncode': 0}
+[0.482357] (custom_message) JobEnded: {'identifier': 'custom_message', 'rc': 0}
+[0.482756] (package_message) JobStarted: {'identifier': 'package_message'}
+[0.486009] (simple_demo_cpp) JobStarted: {'identifier': 'simple_demo_cpp'}
+[0.492468] (package_message) JobProgress: {'identifier': 'package_message', 'progress': 'cmake'}
+[0.492857] (package_message) JobProgress: {'identifier': 'package_message', 'progress': 'build'}
+[0.493124] (package_message) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/symphony/ros2/build/package_message', '--', '-j20', '-l20'], 'cwd': '/home/symphony/ros2/build/package_message', 'env': OrderedDict([('MAIL', '/var/spool/mail/symphony'), ('HYPRLAND_CMD', 'Hyprland --watchdog-fd 4'), ('USER', 'symphony'), ('HYPRLAND_INSTANCE_SIGNATURE', 'efb50993780079460b0cbed1363e2166a2de1d9f_1792638764_439894819'), ('STARSHIP_SHELL', 'bash'), ('HOSTNAME', 'FatchulRizqi'), ('XDG_SESSION_TYPE', 'wayland'), ('XCURSOR_SIZE', '23'), ('XDG_CACHE_HOME', '/home/symphony/.cache'), ('SHLVL', '4'), ('LD_LIBRARY_PATH', '/home/symphony/ros2/install/custom_message/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/symphony'), ('TERMINFO', '/usr/lib/kitty/terminfo'), ('MOZ_ENABLE_WAYLAND', '1'), ('OLDPWD', '/home/symphony'), ('DESKTOP_SESSION', 'hyprland'), ('KITTY_INSTALLATION_DIR', '/usr/lib/kitty'), ('ROS_PYTHON_VERSION', '3'), ('PS1', '[\\u@\\h \\W]\\$'), ('KITTY_PID', '37595'), ('DISTROBOX_ENTER_PATH', '/usr/bin/distrobox-enter'), ('XDG_STATE_HOME', '/home/symphony/.local/state'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('QT_WAYLAND_DISABLE_WINDOWDECORATION', '1'), ('container', 'podman'), ('DEBUGINFOD_URLS', 'https://debuginfod.archlinux.org'), ('QT_QPA_PLATFORMTHEME', 'qt6ct'), ('WAYLAND_DISPLAY', 'wayland-1'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'symphony'), ('QT_AUTO_SCREEN_SCALE_FACTOR', '1.25'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERMINFO_DIRS', '/usr/share/terminfo:/run/host/usr/share/terminfo'), ('CLUTTER_BACKEND', 'wayland'), ('TERM', 'xterm-kitty'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('HL_INITIAL_WORKSPACE_TOKEN', '08e6d12e-340e-4af4-9030-5a590cc1cdf8'), ('PATH', '/opt/ros/humble/bin:/usr/local/bin:/usr/bin:/var/lib/flatpak/exports/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/home/symphony/.spicetify:/home/symphony/.spicetify:/usr/local/sbin:/usr/sbin:/usr/local/bin:/usr/bin:/sbin:/bin:/usr/local/sbin:/usr/sbin:/sbin:/bin:/home/symphony/.spicetify:/home/symphony/.spicetify'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'wayland,x11,*'), ('DISPLAY', ':1'), ('HYPRCURSOR_SIZE', '23'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Hyprland'), ('XDG_DATA_HOME', '/home/symphony/.local/share'), ('XDG_CONFIG_HOME', '/home/symphony/.config'), ('LIBVA_DRIVER_NAME', 'nvidia'), ('XDG_SESSION_DESKTOP', 'Hyprland'), ('AMENT_PREFIX_PATH', '/home/symphony/ros2/install/custom_message:/opt/ros/humble'), ('SHELL', '/usr/bin/bash'), ('SDL_VIDEODRIVER', 'wayland'), ('KITTY_WINDOW_ID', '1'), ('VSSCRIPT_PATH', '/usr/lib/python3.14/site-packages/vapoursynth/libvsscript.so'), ('PWD', '/home/symphony/ros2/build/package_message'), ('CONTAINER_ID', 'ros2-box'), ('QT_QPA_PLATFORM', 'wayland;xcb'), ('XDG_CONFIG_DIRS', '/etc/xdg'), ('XDG_BACKEND', 'wayland'), ('XDG_DATA_DIRS', '/home/symphony/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share'), ('STARSHIP_SESSION_KEY', '8523103801682332'), ('PYTHONPATH', '/home/symphony/ros2/install/custom_message/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/symphony/ros2/install/custom_message:/opt/ros/humble')]), 'shell': False}
+[0.496324] (simple_demo_cpp) JobProgress: {'identifier': 'simple_demo_cpp', 'progress': 'cmake'}
+[0.496984] (simple_demo_cpp) JobProgress: {'identifier': 'simple_demo_cpp', 'progress': 'build'}
+[0.497221] (simple_demo_cpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/symphony/ros2/build/simple_demo_cpp', '--', '-j20', '-l20'], 'cwd': '/home/symphony/ros2/build/simple_demo_cpp', 'env': OrderedDict([('MAIL', '/var/spool/mail/symphony'), ('HYPRLAND_CMD', 'Hyprland --watchdog-fd 4'), ('USER', 'symphony'), ('HYPRLAND_INSTANCE_SIGNATURE', 'efb50993780079460b0cbed1363e2166a2de1d9f_1792638764_439894819'), ('STARSHIP_SHELL', 'bash'), ('HOSTNAME', 'FatchulRizqi'), ('XDG_SESSION_TYPE', 'wayland'), ('XCURSOR_SIZE', '23'), ('XDG_CACHE_HOME', '/home/symphony/.cache'), ('SHLVL', '4'), ('LD_LIBRARY_PATH', '/home/symphony/ros2/install/custom_message/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/symphony'), ('TERMINFO', '/usr/lib/kitty/terminfo'), ('MOZ_ENABLE_WAYLAND', '1'), ('OLDPWD', '/home/symphony'), ('DESKTOP_SESSION', 'hyprland'), ('KITTY_INSTALLATION_DIR', '/usr/lib/kitty'), ('ROS_PYTHON_VERSION', '3'), ('PS1', '[\\u@\\h \\W]\\$'), ('KITTY_PID', '37595'), ('DISTROBOX_ENTER_PATH', '/usr/bin/distrobox-enter'), ('XDG_STATE_HOME', '/home/symphony/.local/state'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('QT_WAYLAND_DISABLE_WINDOWDECORATION', '1'), ('container', 'podman'), ('DEBUGINFOD_URLS', 'https://debuginfod.archlinux.org'), ('QT_QPA_PLATFORMTHEME', 'qt6ct'), ('WAYLAND_DISPLAY', 'wayland-1'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'symphony'), ('QT_AUTO_SCREEN_SCALE_FACTOR', '1.25'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERMINFO_DIRS', '/usr/share/terminfo:/run/host/usr/share/terminfo'), ('CLUTTER_BACKEND', 'wayland'), ('TERM', 'xterm-kitty'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('HL_INITIAL_WORKSPACE_TOKEN', '08e6d12e-340e-4af4-9030-5a590cc1cdf8'), ('PATH', '/opt/ros/humble/bin:/usr/local/bin:/usr/bin:/var/lib/flatpak/exports/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/home/symphony/.spicetify:/home/symphony/.spicetify:/usr/local/sbin:/usr/sbin:/usr/local/bin:/usr/bin:/sbin:/bin:/usr/local/sbin:/usr/sbin:/sbin:/bin:/home/symphony/.spicetify:/home/symphony/.spicetify'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'wayland,x11,*'), ('DISPLAY', ':1'), ('HYPRCURSOR_SIZE', '23'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Hyprland'), ('XDG_DATA_HOME', '/home/symphony/.local/share'), ('XDG_CONFIG_HOME', '/home/symphony/.config'), ('LIBVA_DRIVER_NAME', 'nvidia'), ('XDG_SESSION_DESKTOP', 'Hyprland'), ('AMENT_PREFIX_PATH', '/home/symphony/ros2/install/custom_message:/opt/ros/humble'), ('SHELL', '/usr/bin/bash'), ('SDL_VIDEODRIVER', 'wayland'), ('KITTY_WINDOW_ID', '1'), ('VSSCRIPT_PATH', '/usr/lib/python3.14/site-packages/vapoursynth/libvsscript.so'), ('PWD', '/home/symphony/ros2/build/simple_demo_cpp'), ('CONTAINER_ID', 'ros2-box'), ('QT_QPA_PLATFORM', 'wayland;xcb'), ('XDG_CONFIG_DIRS', '/etc/xdg'), ('XDG_BACKEND', 'wayland'), ('XDG_DATA_DIRS', '/home/symphony/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share'), ('STARSHIP_SESSION_KEY', '8523103801682332'), ('PYTHONPATH', '/home/symphony/ros2/install/custom_message/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/symphony/ros2/install/custom_message:/opt/ros/humble')]), 'shell': False}
+[0.499924] (-) TimerEvent: {}
+[0.527300] (package_message) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.567535] (simple_demo_cpp) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/src/talker.cpp.o\x1b[0m\n'}
+[0.567681] (simple_demo_cpp) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/listener.dir/src/listener.cpp.o\x1b[0m\n'}
+[0.600107] (-) TimerEvent: {}
+[0.661520] (package_message) StdoutLine: {'line': b'-- Found rclcpp: 16.0.21 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.692667] (package_message) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.695629] (package_message) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.700160] (-) TimerEvent: {}
+[0.703420] (package_message) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.714301] (package_message) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.730181] (package_message) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.771583] (package_message) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.4 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.775036] (package_message) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.800286] (-) TimerEvent: {}
+[0.875600] (package_message) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.900358] (-) TimerEvent: {}
+[0.928355] (package_message) StdoutLine: {'line': b'-- Found custom_message: 0.0.0 (/home/symphony/ros2/install/custom_message/share/custom_message/cmake)\n'}
+[0.938990] (package_message) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.000480] (-) TimerEvent: {}
+[1.003138] (package_message) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:32 (install):\n'}
+[1.003241] (package_message) StderrLine: {'line': b'  install TARGETS given target "talker" which does not exist.\n'}
+[1.003280] (package_message) StderrLine: {'line': b'\n'}
+[1.003309] (package_message) StderrLine: {'line': b'\x1b[0m\n'}
+[1.009438] (package_message) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.009490] (package_message) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.009520] (package_message) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.010712] (package_message) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.013503] (package_message) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.013538] (package_message) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.013987] (package_message) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.015342] (package_message) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.015377] (package_message) StdoutLine: {'line': b'See also "/home/symphony/ros2/build/package_message/CMakeFiles/CMakeOutput.log".\n'}
+[1.019697] (package_message) StderrLine: {'line': b'gmake: *** [Makefile:226: cmake_check_build_system] Error 1\n'}
+[1.021524] (package_message) CommandEnded: {'returncode': 2}
+[1.029785] (package_message) JobEnded: {'identifier': 'package_message', 'rc': 2}
+[1.100616] (-) TimerEvent: {}
+[1.200938] (-) TimerEvent: {}
+[1.301175] (-) TimerEvent: {}
+[1.401520] (-) TimerEvent: {}
+[1.501831] (-) TimerEvent: {}
+[1.602161] (-) TimerEvent: {}
+[1.702535] (-) TimerEvent: {}
+[1.802880] (-) TimerEvent: {}
+[1.903225] (-) TimerEvent: {}
+[2.003526] (-) TimerEvent: {}
+[2.103868] (-) TimerEvent: {}
+[2.204212] (-) TimerEvent: {}
+[2.304556] (-) TimerEvent: {}
+[2.404910] (-) TimerEvent: {}
+[2.505253] (-) TimerEvent: {}
+[2.605599] (-) TimerEvent: {}
+[2.705945] (-) TimerEvent: {}
+[2.806291] (-) TimerEvent: {}
+[2.906627] (-) TimerEvent: {}
+[3.006967] (-) TimerEvent: {}
+[3.107306] (-) TimerEvent: {}
+[3.207663] (-) TimerEvent: {}
+[3.308018] (-) TimerEvent: {}
+[3.408370] (-) TimerEvent: {}
+[3.508704] (-) TimerEvent: {}
+[3.609029] (-) TimerEvent: {}
+[3.709371] (-) TimerEvent: {}
+[3.809655] (-) TimerEvent: {}
+[3.891855] (simple_demo_cpp) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable talker\x1b[0m\n'}
+[3.909752] (-) TimerEvent: {}
+[4.010088] (-) TimerEvent: {}
+[4.034837] (simple_demo_cpp) StdoutLine: {'line': b'[ 75%] Built target talker\n'}
+[4.110274] (-) TimerEvent: {}
+[4.210619] (-) TimerEvent: {}
+[4.310984] (-) TimerEvent: {}
+[4.411359] (-) TimerEvent: {}
+[4.511695] (-) TimerEvent: {}
+[4.612062] (-) TimerEvent: {}
+[4.712456] (-) TimerEvent: {}
+[4.812811] (-) TimerEvent: {}
+[4.913164] (-) TimerEvent: {}
+[5.013512] (-) TimerEvent: {}
+[5.113876] (-) TimerEvent: {}
+[5.214269] (-) TimerEvent: {}
+[5.314644] (-) TimerEvent: {}
+[5.415003] (-) TimerEvent: {}
+[5.515357] (-) TimerEvent: {}
+[5.615692] (-) TimerEvent: {}
+[5.715983] (-) TimerEvent: {}
+[5.816427] (-) TimerEvent: {}
+[5.916699] (-) TimerEvent: {}
+[6.011980] (simple_demo_cpp) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable listener\x1b[0m\n'}
+[6.016798] (-) TimerEvent: {}
+[6.117224] (-) TimerEvent: {}
+[6.217566] (-) TimerEvent: {}
+[6.262419] (simple_demo_cpp) StdoutLine: {'line': b'[100%] Built target listener\n'}
+[6.273332] (simple_demo_cpp) JobEnded: {'identifier': 'simple_demo_cpp', 'rc': 'SIGINT'}
+[6.284062] (-) EventReactorShutdown: {}

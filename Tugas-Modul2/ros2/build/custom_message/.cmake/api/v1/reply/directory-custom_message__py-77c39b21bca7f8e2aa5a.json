@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "custom_message__py",
+		"source" : "/home/symphony/ros2/build/custom_message/custom_message__py"
+	}
+}

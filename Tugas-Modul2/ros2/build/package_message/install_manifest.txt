@@ -1,0 +1,17 @@
+/home/symphony/ros2/install/package_message/lib/package_message/message_talker
+/home/symphony/ros2/install/package_message/lib/package_message/message_listener
+/home/symphony/ros2/install/package_message/share/ament_index/resource_index/package_run_dependencies/package_message
+/home/symphony/ros2/install/package_message/share/ament_index/resource_index/parent_prefix_path/package_message
+/home/symphony/ros2/install/package_message/share/package_message/environment/ament_prefix_path.sh
+/home/symphony/ros2/install/package_message/share/package_message/environment/ament_prefix_path.dsv
+/home/symphony/ros2/install/package_message/share/package_message/environment/path.sh
+/home/symphony/ros2/install/package_message/share/package_message/environment/path.dsv
+/home/symphony/ros2/install/package_message/share/package_message/local_setup.bash
+/home/symphony/ros2/install/package_message/share/package_message/local_setup.sh
+/home/symphony/ros2/install/package_message/share/package_message/local_setup.zsh
+/home/symphony/ros2/install/package_message/share/package_message/local_setup.dsv
+/home/symphony/ros2/install/package_message/share/package_message/package.dsv
+/home/symphony/ros2/install/package_message/share/ament_index/resource_index/packages/package_message
+/home/symphony/ros2/install/package_message/share/package_message/cmake/package_messageConfig.cmake
+/home/symphony/ros2/install/package_message/share/package_message/cmake/package_messageConfig-version.cmake
+/home/symphony/ros2/install/package_message/share/package_message/package.xml

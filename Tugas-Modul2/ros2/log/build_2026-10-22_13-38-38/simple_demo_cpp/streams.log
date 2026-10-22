@@ -1,0 +1,7 @@
+[0.012s] Invoking command in '/home/symphony/ros2/build/simple_demo_cpp': AMENT_PREFIX_PATH=/home/symphony/ros2/install/custom_message:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/symphony/ros2/install/custom_message:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org LD_LIBRARY_PATH=/home/symphony/ros2/install/custom_message/lib:${LD_LIBRARY_PATH} PS1=[\u@\h \W]\$ PYTHONPATH=/home/symphony/ros2/install/custom_message/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/symphony/ros2/build/simple_demo_cpp -- -j20 -l20
+[0.081s] [ 25%] [32mBuilding CXX object CMakeFiles/talker.dir/src/talker.cpp.o[0m
+[0.081s] [ 50%] [32mBuilding CXX object CMakeFiles/listener.dir/src/listener.cpp.o[0m
+[3.406s] [ 75%] [32m[1mLinking CXX executable talker[0m
+[3.549s] [ 75%] Built target talker
+[5.526s] [100%] [32m[1mLinking CXX executable listener[0m
+[5.776s] [100%] Built target listener

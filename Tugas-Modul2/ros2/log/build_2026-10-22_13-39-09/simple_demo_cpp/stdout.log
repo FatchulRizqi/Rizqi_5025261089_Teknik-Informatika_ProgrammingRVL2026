@@ -1,0 +1,24 @@
+[35m[1mConsolidate compiler generated dependencies of target listener[0m
+[35m[1mConsolidate compiler generated dependencies of target talker[0m
+[100%] Built target talker
+[100%] Built target listener
+-- Install configuration: ""
+-- Installing: /home/symphony/ros2/install/simple_demo_cpp/lib/simple_demo_cpp/talker
+-- Set runtime path of "/home/symphony/ros2/install/simple_demo_cpp/lib/simple_demo_cpp/talker" to ""
+-- Installing: /home/symphony/ros2/install/simple_demo_cpp/lib/simple_demo_cpp/listener
+-- Set runtime path of "/home/symphony/ros2/install/simple_demo_cpp/lib/simple_demo_cpp/listener" to ""
+-- Installing: /home/symphony/ros2/install/simple_demo_cpp/share/ament_index/resource_index/package_run_dependencies/simple_demo_cpp
+-- Installing: /home/symphony/ros2/install/simple_demo_cpp/share/ament_index/resource_index/parent_prefix_path/simple_demo_cpp
+-- Installing: /home/symphony/ros2/install/simple_demo_cpp/share/simple_demo_cpp/environment/ament_prefix_path.sh
+-- Installing: /home/symphony/ros2/install/simple_demo_cpp/share/simple_demo_cpp/environment/ament_prefix_path.dsv
+-- Installing: /home/symphony/ros2/install/simple_demo_cpp/share/simple_demo_cpp/environment/path.sh
+-- Installing: /home/symphony/ros2/install/simple_demo_cpp/share/simple_demo_cpp/environment/path.dsv
+-- Installing: /home/symphony/ros2/install/simple_demo_cpp/share/simple_demo_cpp/local_setup.bash
+-- Installing: /home/symphony/ros2/install/simple_demo_cpp/share/simple_demo_cpp/local_setup.sh
+-- Installing: /home/symphony/ros2/install/simple_demo_cpp/share/simple_demo_cpp/local_setup.zsh
+-- Installing: /home/symphony/ros2/install/simple_demo_cpp/share/simple_demo_cpp/local_setup.dsv
+-- Installing: /home/symphony/ros2/install/simple_demo_cpp/share/simple_demo_cpp/package.dsv
+-- Installing: /home/symphony/ros2/install/simple_demo_cpp/share/ament_index/resource_index/packages/simple_demo_cpp
+-- Installing: /home/symphony/ros2/install/simple_demo_cpp/share/simple_demo_cpp/cmake/simple_demo_cppConfig.cmake
+-- Installing: /home/symphony/ros2/install/simple_demo_cpp/share/simple_demo_cpp/cmake/simple_demo_cppConfig-version.cmake
+-- Installing: /home/symphony/ros2/install/simple_demo_cpp/share/simple_demo_cpp/package.xml

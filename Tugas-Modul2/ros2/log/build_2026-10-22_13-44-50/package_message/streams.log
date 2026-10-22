@@ -1,0 +1,32 @@
+[0.012s] Invoking command in '/home/symphony/ros2/build/package_message': AMENT_PREFIX_PATH=/home/symphony/ros2/install/custom_message:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/symphony/ros2/install/custom_message:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org LD_LIBRARY_PATH=/home/symphony/ros2/install/custom_message/lib:${LD_LIBRARY_PATH} PS1=[\u@\h \W]\$ PYTHONPATH=/home/symphony/ros2/install/custom_message/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/symphony/ros2/build/package_message -- -j20 -l20
+[0.083s] [35m[1mConsolidate compiler generated dependencies of target message_talker[0m
+[0.084s] [35m[1mConsolidate compiler generated dependencies of target message_listener[0m
+[0.122s] [ 50%] [32mBuilding CXX object CMakeFiles/message_listener.dir/src/message_listener.cpp.o[0m
+[0.122s] [ 50%] [32mBuilding CXX object CMakeFiles/message_talker.dir/src/message_talker.cpp.o[0m
+[3.455s] [ 75%] [32m[1mLinking CXX executable message_talker[0m
+[3.594s] [ 75%] Built target message_talker
+[5.643s] [100%] [32m[1mLinking CXX executable message_listener[0m
+[5.899s] [100%] Built target message_listener
+[5.912s] Invoked command in '/home/symphony/ros2/build/package_message' returned '0': AMENT_PREFIX_PATH=/home/symphony/ros2/install/custom_message:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/symphony/ros2/install/custom_message:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org LD_LIBRARY_PATH=/home/symphony/ros2/install/custom_message/lib:${LD_LIBRARY_PATH} PS1=[\u@\h \W]\$ PYTHONPATH=/home/symphony/ros2/install/custom_message/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/symphony/ros2/build/package_message -- -j20 -l20
+[5.913s] Invoking command in '/home/symphony/ros2/build/package_message': AMENT_PREFIX_PATH=/home/symphony/ros2/install/custom_message:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/symphony/ros2/install/custom_message:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org LD_LIBRARY_PATH=/home/symphony/ros2/install/custom_message/lib:${LD_LIBRARY_PATH} PS1=[\u@\h \W]\$ PYTHONPATH=/home/symphony/ros2/install/custom_message/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/symphony/ros2/build/package_message
+[5.927s] -- Install configuration: ""
+[5.927s] -- Installing: /home/symphony/ros2/install/package_message/lib/package_message/message_talker
+[5.928s] -- Set runtime path of "/home/symphony/ros2/install/package_message/lib/package_message/message_talker" to ""
+[5.929s] -- Installing: /home/symphony/ros2/install/package_message/lib/package_message/message_listener
+[5.931s] -- Set runtime path of "/home/symphony/ros2/install/package_message/lib/package_message/message_listener" to ""
+[5.931s] -- Installing: /home/symphony/ros2/install/package_message/share/ament_index/resource_index/package_run_dependencies/package_message
+[5.931s] -- Installing: /home/symphony/ros2/install/package_message/share/ament_index/resource_index/parent_prefix_path/package_message
+[5.932s] -- Up-to-date: /home/symphony/ros2/install/package_message/share/package_message/environment/ament_prefix_path.sh
+[5.932s] -- Installing: /home/symphony/ros2/install/package_message/share/package_message/environment/ament_prefix_path.dsv
+[5.932s] -- Up-to-date: /home/symphony/ros2/install/package_message/share/package_message/environment/path.sh
+[5.932s] -- Installing: /home/symphony/ros2/install/package_message/share/package_message/environment/path.dsv
+[5.932s] -- Up-to-date: /home/symphony/ros2/install/package_message/share/package_message/local_setup.bash
+[5.933s] -- Up-to-date: /home/symphony/ros2/install/package_message/share/package_message/local_setup.sh
+[5.933s] -- Up-to-date: /home/symphony/ros2/install/package_message/share/package_message/local_setup.zsh
+[5.933s] -- Installing: /home/symphony/ros2/install/package_message/share/package_message/local_setup.dsv
+[5.933s] -- Installing: /home/symphony/ros2/install/package_message/share/package_message/package.dsv
+[5.933s] -- Up-to-date: /home/symphony/ros2/install/package_message/share/ament_index/resource_index/packages/package_message
+[5.933s] -- Up-to-date: /home/symphony/ros2/install/package_message/share/package_message/cmake/package_messageConfig.cmake
+[5.934s] -- Up-to-date: /home/symphony/ros2/install/package_message/share/package_message/cmake/package_messageConfig-version.cmake
+[5.934s] -- Installing: /home/symphony/ros2/install/package_message/share/package_message/package.xml
+[5.936s] Invoked command in '/home/symphony/ros2/build/package_message' returned '0': AMENT_PREFIX_PATH=/home/symphony/ros2/install/custom_message:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/symphony/ros2/install/custom_message:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org LD_LIBRARY_PATH=/home/symphony/ros2/install/custom_message/lib:${LD_LIBRARY_PATH} PS1=[\u@\h \W]\$ PYTHONPATH=/home/symphony/ros2/install/custom_message/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/symphony/ros2/build/package_message

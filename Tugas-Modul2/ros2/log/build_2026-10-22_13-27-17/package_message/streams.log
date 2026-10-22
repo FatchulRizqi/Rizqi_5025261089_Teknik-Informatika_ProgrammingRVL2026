@@ -1,0 +1,44 @@
+[0.011s] Invoking command in '/home/symphony/ros2/build/package_message': DEBUGINFOD_URLS=https://debuginfod.archlinux.org PS1=[\u@\h \W]\$ /usr/bin/cmake --build /home/symphony/ros2/build/package_message -- -j20 -l20
+[0.063s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.225s] -- Found rclcpp: 16.0.21 (/opt/ros/humble/share/rclcpp/cmake)
+[0.249s] -- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.251s] -- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.257s] -- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.265s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.276s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.307s] -- Found rmw_implementation_cmake: 6.1.4 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.309s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.381s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.424s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.468s] Error parsing '/home/symphony/ros2/src/package_message/package.xml':
+[0.468s] Traceback (most recent call last):
+[0.468s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>
+[0.468s]     main()
+[0.468s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main
+[0.468s]     raise e
+[0.468s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main
+[0.468s]     package = parse_package_string(
+[0.468s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 788, in parse_package_string
+[0.468s]     pkg.validate(warnings=warnings)
+[0.468s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 330, in validate
+[0.468s]     raise InvalidPackage('\n'.join(errors), self.filename)
+[0.468s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/symphony/ros2/src/package_message/package.xml':
+[0.469s] The package "package_message" must not "build_depend" on a package with the same name as this package
+[0.469s] The package "package_message" must not "build_export_depend" on a package with the same name as this package
+[0.469s] The package "package_message" must not "exec_depend" on a package with the same name as this package
+[0.473s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[0.473s]   execute_process(/usr/bin/python3
+[0.473s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[0.473s]   /home/symphony/ros2/src/package_message/package.xml
+[0.473s]   /home/symphony/ros2/build/package_message/ament_cmake_core/package.cmake)
+[0.473s]   returned error code 1
+[0.473s] Call Stack (most recent call first):
+[0.473s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[0.473s]   /opt/ros/humble/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[0.473s]   CMakeLists.txt:22 (ament_lint_auto_find_test_dependencies)
+[0.473s] 
+[0.473s] [0m
+[0.473s] -- Configuring incomplete, errors occurred!
+[0.474s] See also "/home/symphony/ros2/build/package_message/CMakeFiles/CMakeOutput.log".
+[0.478s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[0.479s] Invoked command in '/home/symphony/ros2/build/package_message' returned '2': DEBUGINFOD_URLS=https://debuginfod.archlinux.org PS1=[\u@\h \W]\$ /usr/bin/cmake --build /home/symphony/ros2/build/package_message -- -j20 -l20

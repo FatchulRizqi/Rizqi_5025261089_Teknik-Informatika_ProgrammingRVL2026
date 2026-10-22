@@ -1,0 +1,4 @@
+[35m[1mConsolidate compiler generated dependencies of target message_talker[0m
+[35m[1mConsolidate compiler generated dependencies of target message_listener[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/message_listener.dir/src/message_listener.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/message_talker.dir/src/message_talker.cpp.o[0m

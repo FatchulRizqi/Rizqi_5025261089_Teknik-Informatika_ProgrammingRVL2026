@@ -1,0 +1,7 @@
+[0.000000] (-) TimerEvent: {}
+[0.000164] (-) JobUnselected: {'identifier': 'custom_message'}
+[0.000208] (-) JobUnselected: {'identifier': 'simple_demo_cpp'}
+[0.000246] (package_message) JobQueued: {'identifier': 'package_message', 'dependencies': OrderedDict([('custom_message', '/home/symphony/ros2/install/custom_message')])}
+[0.000286] (package_message) JobStarted: {'identifier': 'package_message'}
+[0.033422] (package_message) JobEnded: {'identifier': 'package_message', 'rc': 1}
+[0.043896] (-) EventReactorShutdown: {}

@@ -1,0 +1,119 @@
+[01m[K/home/symphony/ros2/src/package_message/src/message_talker.cpp:24:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kpackage_messages[m[K’ was not declared in this scope
+   24 |   rclcpp::Publisher<[01;31m[Kpackage_messages[m[K::msg::Controller>::SharedPtr pub_pos;
+      |                     [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/symphony/ros2/src/package_message/src/message_talker.cpp:24:54:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   24 | Publisher<package_messages::msg::Controller[01;31m[K>[m[K::SharedPtr pub_pos;
+      |                                            [01;31m[K^[m[K
+
+[01m[K/home/symphony/ros2/src/package_message/src/message_talker.cpp:24:57:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   24 | lisher<package_messages::msg::Controller>::[01;31m[KSharedPtr[m[K pub_pos;
+      |                                            [01;31m[K^~~~~~~~~[m[K
+      |                                                     [32m[K;[m[K
+[01m[K/home/symphony/ros2/src/package_message/src/message_listener.cpp:14:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kpackage_messages[m[K’ does not name a type
+   14 |   void controllerCallback(const [01;31m[Kpackage_messages[m[K::msg::Controller::SharedPtr msg) {
+      |                                 [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/symphony/ros2/src/package_message/src/message_listener.cpp:14:54:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K::[m[K’ token
+   14 |   void controllerCallback(const package_messages::msg[01;31m[K::[m[KController::SharedPtr msg) {
+      |                                                      [01;31m[K^~[m[K
+[01m[K/home/symphony/ros2/src/package_message/src/message_listener.cpp:14:54:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K::[m[K’ token
+   14 |   void controllerCallback[34m[K([m[Kconst package_messages::msg[01;31m[K:[m[K[32m[K:[m[KController::SharedPtr msg) {
+      |                          [34m[K~[m[K                           [01;31m[K^[m[K[32m[K~[m[K
+      |                                                      [32m[K)[m[K
+[01m[K/home/symphony/ros2/src/package_message/src/message_listener.cpp:14:51:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   14 |   void controllerCallback(const package_messages::[01;31m[Kmsg[m[K::Controller::SharedPtr msg) {
+      |                                                   [01;31m[K^~~[m[K
+      |                                                      [32m[K;[m[K
+[01m[K/home/symphony/ros2/src/package_message/src/message_talker.cpp:24:67:[m[K [01;31m[Kerror: [m[K‘[01m[Kpub_pos[m[K’ does not name a type
+   24 | package_messages::msg::Controller>::SharedPtr [01;31m[Kpub_pos[m[K;
+      |                                               [01;31m[K^~~~~~~[m[K
+
+[01m[K/home/symphony/ros2/src/package_message/src/message_listener.cpp:14:56:[m[K [01;31m[Kerror: [m[K‘[01m[KController[m[K’ in namespace ‘[01m[K::[m[K’ does not name a type
+   14 |   void controllerCallback(const package_messages::msg::[01;31m[KController[m[K::SharedPtr msg) {
+      |                                                        [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/symphony/ros2/src/package_message/src/message_talker.cpp:[m[K In constructor ‘[01m[KControllerPublisher::ControllerPublisher()[m[K’:
+[01m[K/home/symphony/ros2/src/package_message/src/message_talker.cpp:10:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpub_pos[m[K’ was not declared in this scope
+   10 |     [01;31m[Kpub_pos[m[K = this->create_publisher<package_messages::msg::Controller>("controller", 10);
+      |     [01;31m[K^~~~~~~[m[K
+[01m[K/home/symphony/ros2/src/package_message/src/message_listener.cpp:24:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kpackage_messages[m[K’ was not declared in this scope
+   24 |   rclcpp::Subscription<[01;31m[Kpackage_messages[m[K::msg::Controller>::SharedPtr sub_controller;
+      |                        [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/symphony/ros2/src/package_message/src/message_listener.cpp:24:57:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   24 |   rclcpp::Subscription<package_messages::msg::Controller[01;31m[K>[m[K::SharedPtr sub_controller;
+      |                                                         [01;31m[K^[m[K
+[01m[K/home/symphony/ros2/src/package_message/src/message_listener.cpp:24:57:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[01m[K/home/symphony/ros2/src/package_message/src/message_listener.cpp:24:57:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[01m[K/home/symphony/ros2/src/package_message/src/message_listener.cpp:24:57:[m[K [01;31m[Kerror: [m[Ktemplate argument 5 is invalid
+[01m[K/home/symphony/ros2/src/package_message/src/message_listener.cpp:24:60:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   24 |   rclcpp::Subscription<package_messages::msg::Controller>::[01;31m[KSharedPtr[m[K sub_controller;
+      |                                                            [01;31m[K^~~~~~~~~[m[K
+      |                                                                     [32m[K;[m[K
+[01m[K/home/symphony/ros2/src/package_message/src/message_listener.cpp:24:70:[m[K [01;31m[Kerror: [m[K‘[01m[Ksub_controller[m[K’ does not name a type
+   24 |   rclcpp::Subscription<package_messages::msg::Controller>::SharedPtr [01;31m[Ksub_controller[m[K;
+      |                                                                      [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/symphony/ros2/src/package_message/src/message_talker.cpp:10:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kpackage_messages[m[K’ was not declared in this scope
+   10 |     pub_pos = this->create_publisher<[01;31m[Kpackage_messages[m[K::msg::Controller>("controller", 10);
+      |                                      [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/symphony/ros2/src/package_message/src/message_talker.cpp:10:21:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+   10 |     pub_pos = this->[01;31m[Kcreate_publisher<package_messages::msg::Controller>[m[K("controller", 10);
+      |                     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/symphony/ros2/src/package_message/src/message_talker.cpp:10:72:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KControllerPublisher::create_publisher<<expression error> >(const char [11], int)[m[K’
+   10 | [01;31m[Kublisher<package_messages::msg::Controller>("controller", 10)[m[K;
+      | [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~[m[K
+
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/symphony/ros2/src/package_message/src/message_talker.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+  195 |   [01;36m[Kcreate_publisher[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/symphony/ros2/src/package_message/src/message_talker.cpp:10:72:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   10 | [01;31m[Kublisher<package_messages::msg::Controller>("controller", 10)[m[K;
+      | [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~[m[K
+
+[01m[K/home/symphony/ros2/src/package_message/src/message_listener.cpp:[m[K In constructor ‘[01m[KControllerSubscriber::ControllerSubscriber()[m[K’:
+[01m[K/home/symphony/ros2/src/package_message/src/message_listener.cpp:8:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ksub_controller[m[K’ was not declared in this scope
+    8 |     [01;31m[Ksub_controller[m[K = this->create_subscription<package_messages::msg::Controller>(
+      |     [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/symphony/ros2/src/package_message/src/message_talker.cpp:[m[K In member function ‘[01m[Kvoid ControllerPublisher::timer_callback()[m[K’:
+[01m[K/home/symphony/ros2/src/package_message/src/message_talker.cpp:15:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kpackage_messages[m[K’ has not been declared
+   15 |     auto msg = [01;31m[Kpackage_messages[m[K::msg::Controller();
+      |                [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/symphony/ros2/src/package_message/src/message_listener.cpp:8:48:[m[K [01;31m[Kerror: [m[K‘[01m[Kpackage_messages[m[K’ was not declared in this scope
+    8 |     sub_controller = this->create_subscription<[01;31m[Kpackage_messages[m[K::msg::Controller>(
+      |                                                [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/symphony/ros2/src/package_message/src/message_listener.cpp:8:28:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+    8 |     sub_controller = this->[01;31m[Kcreate_subscription<package_messages::msg::Controller>[m[K(
+      |                            [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/symphony/ros2/src/package_message/src/message_talker.cpp:22:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpub_pos[m[K’ was not declared in this scope
+   22 |     [01;31m[Kpub_pos[m[K->publish(msg);
+      |     [01;31m[K^~~~~~~[m[K
+[01m[K/home/symphony/ros2/src/package_message/src/message_listener.cpp:8:82:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KControllerSubscriber::create_subscription<<expression error> >(const char [11], int, std::_Bind_helper<false, void (ControllerSubscriber::*)(...), ControllerSubscriber*, const std::_Placeholder<1>&>::type)[m[K’
+    8 |     sub_controller = [01;31m[Kthis->create_subscription<package_messages::msg::Controller>([m[K
+      |                      [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+    9 | [01;31m[K      "controller", 10, std::bind(&ControllerSubscriber::controllerCallback, this, std::placeholders::_1)[m[K
+      |       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   10 | [01;31m[K    )[m[K;
+      |     [01;31m[K~[m[K                                                                             
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/symphony/ros2/src/package_message/src/message_listener.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:219:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<ROSMessageT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)[m[K’
+  219 |   [01;36m[Kcreate_subscription[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:219:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/symphony/ros2/src/package_message/src/message_listener.cpp:8:82:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+    8 |     sub_controller = [01;31m[Kthis->create_subscription<package_messages::msg::Controller>([m[K
+      |                      [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+    9 | [01;31m[K      "controller", 10, std::bind(&ControllerSubscriber::controllerCallback, this, std::placeholders::_1)[m[K
+      |       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   10 | [01;31m[K    )[m[K;
+      |     [01;31m[K~[m[K                                                                             
+gmake[2]: *** [CMakeFiles/message_listener.dir/build.make:76: CMakeFiles/message_listener.dir/src/message_listener.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/message_listener.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/message_talker.dir/build.make:76: CMakeFiles/message_talker.dir/src/message_talker.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/message_talker.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

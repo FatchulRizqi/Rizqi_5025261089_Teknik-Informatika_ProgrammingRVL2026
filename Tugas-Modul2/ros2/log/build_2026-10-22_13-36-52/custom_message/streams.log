@@ -1,0 +1,248 @@
+[0.009s] Invoking command in '/home/symphony/ros2/build/custom_message': CMAKE_PREFIX_PATH=/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org PS1=[\u@\h \W]\$ /usr/bin/cmake /home/symphony/ros2/src/custom_message -DCMAKE_INSTALL_PREFIX=/home/symphony/ros2/install/custom_message
+[0.083s] -- The C compiler identification is GNU 11.4.0
+[0.192s] -- The CXX compiler identification is GNU 11.4.0
+[0.200s] -- Detecting C compiler ABI info
+[0.291s] -- Detecting C compiler ABI info - done
+[0.296s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.296s] -- Detecting C compile features
+[0.296s] -- Detecting C compile features - done
+[0.300s] -- Detecting CXX compiler ABI info
+[0.387s] -- Detecting CXX compiler ABI info - done
+[0.392s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.392s] -- Detecting CXX compile features
+[0.392s] -- Detecting CXX compile features - done
+[0.394s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.538s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.610s] -- Found rclcpp: 16.0.21 (/opt/ros/humble/share/rclcpp/cmake)
+[0.642s] -- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.646s] -- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.653s] -- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.664s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.678s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.712s] -- Found rmw_implementation_cmake: 6.1.4 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.714s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.811s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.840s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.868s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.877s] -- Looking for pthread.h
+[0.978s] -- Looking for pthread.h - found
+[0.978s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.085s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.086s] -- Found Threads: TRUE  
+[1.129s] -- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.386s] -- Found ament_cmake_ros: 0.10.1 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.734s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.853s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.872s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.873s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.894s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.895s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.895s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.895s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.912s] -- Found PythonExtra: .so  
+[2.032s] -- Configuring done
+[2.078s] -- Generating done
+[2.087s] -- Build files have been written to: /home/symphony/ros2/build/custom_message
+[2.094s] Invoked command in '/home/symphony/ros2/build/custom_message' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org PS1=[\u@\h \W]\$ /usr/bin/cmake /home/symphony/ros2/src/custom_message -DCMAKE_INSTALL_PREFIX=/home/symphony/ros2/install/custom_message
+[2.097s] Invoking command in '/home/symphony/ros2/build/custom_message': CMAKE_PREFIX_PATH=/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org PS1=[\u@\h \W]\$ /usr/bin/cmake --build /home/symphony/ros2/build/custom_message -- -j20 -l20
+[2.167s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.189s] [  6%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[2.189s] [  9%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.201s] [  9%] Built target ament_cmake_python_copy_custom_message
+[2.378s] [  9%] Built target custom_message__rs
+[2.383s] [  9%] Built target custom_message__cpp
+[2.389s] [ 12%] [32mBuilding C object CMakeFiles/custom_message__rosidl_generator_c.dir/rosidl_generator_c/custom_message/msg/detail/controller__functions.c.o[0m
+[2.403s] [ 15%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.404s] [ 18%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.404s] [ 21%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.445s] running egg_info
+[2.445s] creating custom_message.egg-info
+[2.445s] writing custom_message.egg-info/PKG-INFO
+[2.445s] writing dependency_links to custom_message.egg-info/dependency_links.txt
+[2.445s] writing top-level names to custom_message.egg-info/top_level.txt
+[2.445s] writing manifest file 'custom_message.egg-info/SOURCES.txt'
+[2.447s] reading manifest file 'custom_message.egg-info/SOURCES.txt'
+[2.447s] writing manifest file 'custom_message.egg-info/SOURCES.txt'
+[2.472s] [ 21%] Built target ament_cmake_python_build_custom_message_egg
+[2.481s] [ 25%] [32m[1mLinking C shared library libcustom_message__rosidl_generator_c.so[0m
+[2.514s] [ 25%] Built target custom_message__rosidl_generator_c
+[2.529s] [ 28%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.530s] [ 31%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.530s] [ 34%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.581s] [ 37%] [32mBuilding CXX object CMakeFiles/custom_message__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_message/msg/controller__type_support.cpp.o[0m
+[2.602s] [ 40%] [32mBuilding CXX object CMakeFiles/custom_message__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_message/msg/detail/controller__type_support.cpp.o[0m
+[2.606s] [ 43%] [32mBuilding CXX object CMakeFiles/custom_message__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_message/msg/detail/dds_fastrtps/controller__type_support.cpp.o[0m
+[2.724s] [ 46%] [32mBuilding CXX object CMakeFiles/custom_message__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_message/msg/controller__type_support.cpp.o[0m
+[2.749s] [ 50%] [32mBuilding CXX object CMakeFiles/custom_message__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_message/msg/detail/controller__type_support_c.cpp.o[0m
+[2.768s] [ 53%] [32mBuilding C object CMakeFiles/custom_message__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_message/msg/detail/controller__type_support.c.o[0m
+[2.831s] [ 56%] [32m[1mLinking CXX shared library libcustom_message__rosidl_typesupport_c.so[0m
+[2.913s] [ 59%] [32m[1mLinking C shared library libcustom_message__rosidl_typesupport_introspection_c.so[0m
+[2.917s] [ 59%] Built target custom_message__rosidl_typesupport_c
+[2.971s] [ 59%] Built target custom_message__rosidl_typesupport_introspection_c
+[3.051s] [ 62%] [32m[1mLinking CXX shared library libcustom_message__rosidl_typesupport_cpp.so[0m
+[3.098s] [ 62%] Built target custom_message__rosidl_typesupport_cpp
+[3.159s] [ 65%] [32m[1mLinking CXX shared library libcustom_message__rosidl_typesupport_introspection_cpp.so[0m
+[3.190s] [ 68%] [32m[1mLinking CXX shared library libcustom_message__rosidl_typesupport_fastrtps_cpp.so[0m
+[3.208s] [ 68%] Built target custom_message__rosidl_typesupport_introspection_cpp
+[3.225s] [ 71%] [32m[1mLinking CXX shared library libcustom_message__rosidl_typesupport_fastrtps_c.so[0m
+[3.257s] [ 71%] Built target custom_message__rosidl_typesupport_fastrtps_cpp
+[3.289s] [ 71%] Built target custom_message__rosidl_typesupport_fastrtps_c
+[3.320s] [ 71%] Built target custom_message
+[3.353s] [ 75%] [34m[1mGenerating Python code for ROS interfaces[0m
+[3.562s] [ 75%] Built target custom_message__py
+[3.586s] [ 78%] [32mBuilding C object CMakeFiles/custom_message__rosidl_generator_py.dir/rosidl_generator_py/custom_message/msg/_controller_s.c.o[0m
+[3.692s] [ 81%] [32m[1mLinking C shared library rosidl_generator_py/custom_message/libcustom_message__rosidl_generator_py.so[0m
+[3.742s] [ 81%] Built target custom_message__rosidl_generator_py
+[3.774s] [ 84%] [32mBuilding C object CMakeFiles/custom_message__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/custom_message/_custom_message_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[3.774s] [ 87%] [32mBuilding C object CMakeFiles/custom_message__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/custom_message/_custom_message_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[3.775s] [ 90%] [32mBuilding C object CMakeFiles/custom_message__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/custom_message/_custom_message_s.ep.rosidl_typesupport_c.c.o[0m
+[4.054s] [100%] [32m[1mLinking C shared library rosidl_generator_py/custom_message/custom_message_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.054s] [100%] [32m[1mLinking C shared library rosidl_generator_py/custom_message/custom_message_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.054s] [100%] [32m[1mLinking C shared library rosidl_generator_py/custom_message/custom_message_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.108s] [100%] Built target custom_message__rosidl_typesupport_c__pyext
+[4.111s] [100%] Built target custom_message__rosidl_typesupport_introspection_c__pyext
+[4.111s] [100%] Built target custom_message__rosidl_typesupport_fastrtps_c__pyext
+[4.127s] Invoked command in '/home/symphony/ros2/build/custom_message' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org PS1=[\u@\h \W]\$ /usr/bin/cmake --build /home/symphony/ros2/build/custom_message -- -j20 -l20
+[4.138s] Invoking command in '/home/symphony/ros2/build/custom_message': CMAKE_PREFIX_PATH=/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org PS1=[\u@\h \W]\$ /usr/bin/cmake --install /home/symphony/ros2/build/custom_message
+[4.147s] -- Install configuration: ""
+[4.147s] -- Installing: /home/symphony/ros2/install/custom_message/share/ament_index/resource_index/rosidl_interfaces/custom_message
+[4.147s] -- Installing: /home/symphony/ros2/install/custom_message/include/custom_message/custom_message
+[4.148s] -- Installing: /home/symphony/ros2/install/custom_message/include/custom_message/custom_message/msg
+[4.148s] -- Installing: /home/symphony/ros2/install/custom_message/include/custom_message/custom_message/msg/rosidl_generator_c__visibility_control.h
+[4.148s] -- Installing: /home/symphony/ros2/install/custom_message/include/custom_message/custom_message/msg/detail
+[4.148s] -- Installing: /home/symphony/ros2/install/custom_message/include/custom_message/custom_message/msg/detail/controller__functions.c
+[4.149s] -- Installing: /home/symphony/ros2/install/custom_message/include/custom_message/custom_message/msg/detail/controller__type_support.h
+[4.149s] -- Installing: /home/symphony/ros2/install/custom_message/include/custom_message/custom_message/msg/detail/controller__struct.h
+[4.149s] -- Installing: /home/symphony/ros2/install/custom_message/include/custom_message/custom_message/msg/detail/controller__functions.h
+[4.150s] -- Installing: /home/symphony/ros2/install/custom_message/include/custom_message/custom_message/msg/controller.h
+[4.150s] -- Installing: /home/symphony/ros2/install/custom_message/share/custom_message/environment/library_path.sh
+[4.151s] -- Installing: /home/symphony/ros2/install/custom_message/share/custom_message/environment/library_path.dsv
+[4.151s] -- Installing: /home/symphony/ros2/install/custom_message/lib/libcustom_message__rosidl_generator_c.so
+[4.152s] -- Set runtime path of "/home/symphony/ros2/install/custom_message/lib/libcustom_message__rosidl_generator_c.so" to ""
+[4.152s] -- Up-to-date: /home/symphony/ros2/install/custom_message/include/custom_message/custom_message
+[4.152s] -- Up-to-date: /home/symphony/ros2/install/custom_message/include/custom_message/custom_message/msg
+[4.152s] -- Up-to-date: /home/symphony/ros2/install/custom_message/include/custom_message/custom_message/msg/detail
+[4.152s] -- Installing: /home/symphony/ros2/install/custom_message/include/custom_message/custom_message/msg/detail/controller__rosidl_typesupport_fastrtps_c.h
+[4.153s] -- Installing: /home/symphony/ros2/install/custom_message/include/custom_message/custom_message/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[4.153s] -- Installing: /home/symphony/ros2/install/custom_message/lib/libcustom_message__rosidl_typesupport_fastrtps_c.so
+[4.153s] -- Set runtime path of "/home/symphony/ros2/install/custom_message/lib/libcustom_message__rosidl_typesupport_fastrtps_c.so" to ""
+[4.153s] -- Up-to-date: /home/symphony/ros2/install/custom_message/include/custom_message/custom_message
+[4.153s] -- Up-to-date: /home/symphony/ros2/install/custom_message/include/custom_message/custom_message/msg
+[4.154s] -- Installing: /home/symphony/ros2/install/custom_message/include/custom_message/custom_message/msg/controller.hpp
+[4.154s] -- Up-to-date: /home/symphony/ros2/install/custom_message/include/custom_message/custom_message/msg/detail
+[4.154s] -- Installing: /home/symphony/ros2/install/custom_message/include/custom_message/custom_message/msg/detail/controller__type_support.hpp
+[4.154s] -- Installing: /home/symphony/ros2/install/custom_message/include/custom_message/custom_message/msg/detail/controller__struct.hpp
+[4.155s] -- Installing: /home/symphony/ros2/install/custom_message/include/custom_message/custom_message/msg/detail/controller__builder.hpp
+[4.155s] -- Installing: /home/symphony/ros2/install/custom_message/include/custom_message/custom_message/msg/detail/controller__traits.hpp
+[4.155s] -- Installing: /home/symphony/ros2/install/custom_message/include/custom_message/custom_message/msg/rosidl_generator_cpp__visibility_control.hpp
+[4.155s] -- Up-to-date: /home/symphony/ros2/install/custom_message/include/custom_message/custom_message
+[4.155s] -- Up-to-date: /home/symphony/ros2/install/custom_message/include/custom_message/custom_message/msg
+[4.155s] -- Up-to-date: /home/symphony/ros2/install/custom_message/include/custom_message/custom_message/msg/detail
+[4.156s] -- Installing: /home/symphony/ros2/install/custom_message/include/custom_message/custom_message/msg/detail/controller__rosidl_typesupport_fastrtps_cpp.hpp
+[4.156s] -- Installing: /home/symphony/ros2/install/custom_message/include/custom_message/custom_message/msg/detail/dds_fastrtps
+[4.156s] -- Installing: /home/symphony/ros2/install/custom_message/include/custom_message/custom_message/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[4.156s] -- Installing: /home/symphony/ros2/install/custom_message/lib/libcustom_message__rosidl_typesupport_fastrtps_cpp.so
+[4.157s] -- Set runtime path of "/home/symphony/ros2/install/custom_message/lib/libcustom_message__rosidl_typesupport_fastrtps_cpp.so" to ""
+[4.157s] -- Up-to-date: /home/symphony/ros2/install/custom_message/include/custom_message/custom_message
+[4.157s] -- Up-to-date: /home/symphony/ros2/install/custom_message/include/custom_message/custom_message/msg
+[4.157s] -- Installing: /home/symphony/ros2/install/custom_message/include/custom_message/custom_message/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[4.157s] -- Up-to-date: /home/symphony/ros2/install/custom_message/include/custom_message/custom_message/msg/detail
+[4.157s] -- Installing: /home/symphony/ros2/install/custom_message/include/custom_message/custom_message/msg/detail/controller__rosidl_typesupport_introspection_c.h
+[4.158s] -- Installing: /home/symphony/ros2/install/custom_message/include/custom_message/custom_message/msg/detail/controller__type_support.c
+[4.158s] -- Installing: /home/symphony/ros2/install/custom_message/lib/libcustom_message__rosidl_typesupport_introspection_c.so
+[4.159s] -- Set runtime path of "/home/symphony/ros2/install/custom_message/lib/libcustom_message__rosidl_typesupport_introspection_c.so" to ""
+[4.159s] -- Installing: /home/symphony/ros2/install/custom_message/lib/libcustom_message__rosidl_typesupport_c.so
+[4.159s] -- Set runtime path of "/home/symphony/ros2/install/custom_message/lib/libcustom_message__rosidl_typesupport_c.so" to ""
+[4.159s] -- Up-to-date: /home/symphony/ros2/install/custom_message/include/custom_message/custom_message
+[4.159s] -- Up-to-date: /home/symphony/ros2/install/custom_message/include/custom_message/custom_message/msg
+[4.159s] -- Up-to-date: /home/symphony/ros2/install/custom_message/include/custom_message/custom_message/msg/detail
+[4.159s] -- Installing: /home/symphony/ros2/install/custom_message/include/custom_message/custom_message/msg/detail/controller__type_support.cpp
+[4.160s] -- Installing: /home/symphony/ros2/install/custom_message/include/custom_message/custom_message/msg/detail/controller__rosidl_typesupport_introspection_cpp.hpp
+[4.160s] -- Installing: /home/symphony/ros2/install/custom_message/lib/libcustom_message__rosidl_typesupport_introspection_cpp.so
+[4.161s] -- Set runtime path of "/home/symphony/ros2/install/custom_message/lib/libcustom_message__rosidl_typesupport_introspection_cpp.so" to ""
+[4.161s] -- Installing: /home/symphony/ros2/install/custom_message/lib/libcustom_message__rosidl_typesupport_cpp.so
+[4.161s] -- Set runtime path of "/home/symphony/ros2/install/custom_message/lib/libcustom_message__rosidl_typesupport_cpp.so" to ""
+[4.161s] -- Installing: /home/symphony/ros2/install/custom_message/share/custom_message/environment/pythonpath.sh
+[4.161s] -- Installing: /home/symphony/ros2/install/custom_message/share/custom_message/environment/pythonpath.dsv
+[4.162s] -- Installing: /home/symphony/ros2/install/custom_message/local/lib/python3.10/dist-packages/custom_message-0.0.0-py3.10.egg-info
+[4.162s] -- Installing: /home/symphony/ros2/install/custom_message/local/lib/python3.10/dist-packages/custom_message-0.0.0-py3.10.egg-info/SOURCES.txt
+[4.162s] -- Installing: /home/symphony/ros2/install/custom_message/local/lib/python3.10/dist-packages/custom_message-0.0.0-py3.10.egg-info/PKG-INFO
+[4.162s] -- Installing: /home/symphony/ros2/install/custom_message/local/lib/python3.10/dist-packages/custom_message-0.0.0-py3.10.egg-info/dependency_links.txt
+[4.162s] -- Installing: /home/symphony/ros2/install/custom_message/local/lib/python3.10/dist-packages/custom_message-0.0.0-py3.10.egg-info/top_level.txt
+[4.162s] -- Installing: /home/symphony/ros2/install/custom_message/local/lib/python3.10/dist-packages/custom_message
+[4.163s] -- Installing: /home/symphony/ros2/install/custom_message/local/lib/python3.10/dist-packages/custom_message/libcustom_message__rosidl_generator_py.so
+[4.163s] -- Installing: /home/symphony/ros2/install/custom_message/local/lib/python3.10/dist-packages/custom_message/custom_message_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.163s] -- Installing: /home/symphony/ros2/install/custom_message/local/lib/python3.10/dist-packages/custom_message/custom_message_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.163s] -- Installing: /home/symphony/ros2/install/custom_message/local/lib/python3.10/dist-packages/custom_message/_custom_message_s.ep.rosidl_typesupport_c.c
+[4.163s] -- Installing: /home/symphony/ros2/install/custom_message/local/lib/python3.10/dist-packages/custom_message/__init__.py
+[4.163s] -- Installing: /home/symphony/ros2/install/custom_message/local/lib/python3.10/dist-packages/custom_message/msg
+[4.163s] -- Installing: /home/symphony/ros2/install/custom_message/local/lib/python3.10/dist-packages/custom_message/msg/__init__.py
+[4.164s] -- Installing: /home/symphony/ros2/install/custom_message/local/lib/python3.10/dist-packages/custom_message/msg/_controller.py
+[4.164s] -- Installing: /home/symphony/ros2/install/custom_message/local/lib/python3.10/dist-packages/custom_message/msg/_controller_s.c
+[4.164s] -- Installing: /home/symphony/ros2/install/custom_message/local/lib/python3.10/dist-packages/custom_message/_custom_message_s.ep.rosidl_typesupport_fastrtps_c.c
+[4.164s] -- Installing: /home/symphony/ros2/install/custom_message/local/lib/python3.10/dist-packages/custom_message/custom_message_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.164s] -- Installing: /home/symphony/ros2/install/custom_message/local/lib/python3.10/dist-packages/custom_message/_custom_message_s.ep.rosidl_typesupport_introspection_c.c
+[4.196s] Listing '/home/symphony/ros2/install/custom_message/local/lib/python3.10/dist-packages/custom_message'...
+[4.196s] Compiling '/home/symphony/ros2/install/custom_message/local/lib/python3.10/dist-packages/custom_message/__init__.py'...
+[4.196s] Listing '/home/symphony/ros2/install/custom_message/local/lib/python3.10/dist-packages/custom_message/msg'...
+[4.196s] Compiling '/home/symphony/ros2/install/custom_message/local/lib/python3.10/dist-packages/custom_message/msg/__init__.py'...
+[4.196s] Compiling '/home/symphony/ros2/install/custom_message/local/lib/python3.10/dist-packages/custom_message/msg/_controller.py'...
+[4.199s] -- Installing: /home/symphony/ros2/install/custom_message/local/lib/python3.10/dist-packages/custom_message/custom_message_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.199s] -- Set runtime path of "/home/symphony/ros2/install/custom_message/local/lib/python3.10/dist-packages/custom_message/custom_message_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.199s] -- Installing: /home/symphony/ros2/install/custom_message/local/lib/python3.10/dist-packages/custom_message/custom_message_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.200s] -- Set runtime path of "/home/symphony/ros2/install/custom_message/local/lib/python3.10/dist-packages/custom_message/custom_message_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.200s] -- Installing: /home/symphony/ros2/install/custom_message/local/lib/python3.10/dist-packages/custom_message/custom_message_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.200s] -- Set runtime path of "/home/symphony/ros2/install/custom_message/local/lib/python3.10/dist-packages/custom_message/custom_message_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.200s] -- Installing: /home/symphony/ros2/install/custom_message/lib/libcustom_message__rosidl_generator_py.so
+[4.200s] -- Set runtime path of "/home/symphony/ros2/install/custom_message/lib/libcustom_message__rosidl_generator_py.so" to ""
+[4.201s] -- Installing: /home/symphony/ros2/install/custom_message/share/custom_message/rust
+[4.201s] -- Installing: /home/symphony/ros2/install/custom_message/share/custom_message/rust/Cargo.toml
+[4.201s] -- Installing: /home/symphony/ros2/install/custom_message/share/custom_message/rust/build.rs
+[4.201s] -- Installing: /home/symphony/ros2/install/custom_message/share/custom_message/rust/src
+[4.201s] -- Installing: /home/symphony/ros2/install/custom_message/share/custom_message/rust/src/lib.rs
+[4.201s] -- Installing: /home/symphony/ros2/install/custom_message/share/custom_message/rust/src/msg.rs
+[4.201s] -- Installing: /home/symphony/ros2/install/custom_message/share/custom_message/rust/src/msg
+[4.202s] -- Installing: /home/symphony/ros2/install/custom_message/share/custom_message/rust/src/msg/rmw.rs
+[4.202s] -- Installing: /home/symphony/ros2/install/custom_message/share/custom_message/msg/Controller.idl
+[4.202s] -- Installing: /home/symphony/ros2/install/custom_message/share/custom_message/msg/Controller.msg
+[4.202s] -- Installing: /home/symphony/ros2/install/custom_message/share/ament_index/resource_index/package_run_dependencies/custom_message
+[4.202s] -- Installing: /home/symphony/ros2/install/custom_message/share/ament_index/resource_index/parent_prefix_path/custom_message
+[4.203s] -- Installing: /home/symphony/ros2/install/custom_message/share/custom_message/environment/ament_prefix_path.sh
+[4.203s] -- Installing: /home/symphony/ros2/install/custom_message/share/custom_message/environment/ament_prefix_path.dsv
+[4.203s] -- Installing: /home/symphony/ros2/install/custom_message/share/custom_message/environment/path.sh
+[4.203s] -- Installing: /home/symphony/ros2/install/custom_message/share/custom_message/environment/path.dsv
+[4.203s] -- Installing: /home/symphony/ros2/install/custom_message/share/custom_message/local_setup.bash
+[4.204s] -- Installing: /home/symphony/ros2/install/custom_message/share/custom_message/local_setup.sh
+[4.204s] -- Installing: /home/symphony/ros2/install/custom_message/share/custom_message/local_setup.zsh
+[4.204s] -- Installing: /home/symphony/ros2/install/custom_message/share/custom_message/local_setup.dsv
+[4.204s] -- Installing: /home/symphony/ros2/install/custom_message/share/custom_message/package.dsv
+[4.204s] -- Installing: /home/symphony/ros2/install/custom_message/share/ament_index/resource_index/packages/custom_message
+[4.205s] -- Installing: /home/symphony/ros2/install/custom_message/share/custom_message/cmake/export_custom_message__rosidl_generator_cExport.cmake
+[4.205s] -- Installing: /home/symphony/ros2/install/custom_message/share/custom_message/cmake/export_custom_message__rosidl_generator_cExport-noconfig.cmake
+[4.205s] -- Installing: /home/symphony/ros2/install/custom_message/share/custom_message/cmake/export_custom_message__rosidl_typesupport_fastrtps_cExport.cmake
+[4.205s] -- Installing: /home/symphony/ros2/install/custom_message/share/custom_message/cmake/export_custom_message__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[4.205s] -- Installing: /home/symphony/ros2/install/custom_message/share/custom_message/cmake/export_custom_message__rosidl_generator_cppExport.cmake
+[4.205s] -- Installing: /home/symphony/ros2/install/custom_message/share/custom_message/cmake/export_custom_message__rosidl_typesupport_fastrtps_cppExport.cmake
+[4.206s] -- Installing: /home/symphony/ros2/install/custom_message/share/custom_message/cmake/export_custom_message__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[4.206s] -- Installing: /home/symphony/ros2/install/custom_message/share/custom_message/cmake/custom_message__rosidl_typesupport_introspection_cExport.cmake
+[4.206s] -- Installing: /home/symphony/ros2/install/custom_message/share/custom_message/cmake/custom_message__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[4.206s] -- Installing: /home/symphony/ros2/install/custom_message/share/custom_message/cmake/custom_message__rosidl_typesupport_cExport.cmake
+[4.206s] -- Installing: /home/symphony/ros2/install/custom_message/share/custom_message/cmake/custom_message__rosidl_typesupport_cExport-noconfig.cmake
+[4.207s] -- Installing: /home/symphony/ros2/install/custom_message/share/custom_message/cmake/custom_message__rosidl_typesupport_introspection_cppExport.cmake
+[4.207s] -- Installing: /home/symphony/ros2/install/custom_message/share/custom_message/cmake/custom_message__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[4.207s] -- Installing: /home/symphony/ros2/install/custom_message/share/custom_message/cmake/custom_message__rosidl_typesupport_cppExport.cmake
+[4.207s] -- Installing: /home/symphony/ros2/install/custom_message/share/custom_message/cmake/custom_message__rosidl_typesupport_cppExport-noconfig.cmake
+[4.207s] -- Installing: /home/symphony/ros2/install/custom_message/share/custom_message/cmake/export_custom_message__rosidl_generator_pyExport.cmake
+[4.208s] -- Installing: /home/symphony/ros2/install/custom_message/share/custom_message/cmake/export_custom_message__rosidl_generator_pyExport-noconfig.cmake
+[4.208s] -- Installing: /home/symphony/ros2/install/custom_message/share/custom_message/cmake/rosidl_cmake-extras.cmake
+[4.208s] -- Installing: /home/symphony/ros2/install/custom_message/share/custom_message/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.208s] -- Installing: /home/symphony/ros2/install/custom_message/share/custom_message/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.208s] -- Installing: /home/symphony/ros2/install/custom_message/share/custom_message/cmake/ament_cmake_export_libraries-extras.cmake
+[4.208s] -- Installing: /home/symphony/ros2/install/custom_message/share/custom_message/cmake/ament_cmake_export_targets-extras.cmake
+[4.209s] -- Installing: /home/symphony/ros2/install/custom_message/share/custom_message/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.209s] -- Installing: /home/symphony/ros2/install/custom_message/share/custom_message/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[4.209s] -- Installing: /home/symphony/ros2/install/custom_message/share/custom_message/cmake/rosidl_cmake_aggregate_target-extras.cmake
+[4.209s] -- Installing: /home/symphony/ros2/install/custom_message/share/custom_message/cmake/custom_messageConfig.cmake
+[4.209s] -- Installing: /home/symphony/ros2/install/custom_message/share/custom_message/cmake/custom_messageConfig-version.cmake
+[4.210s] -- Installing: /home/symphony/ros2/install/custom_message/share/custom_message/package.xml
+[4.212s] Invoked command in '/home/symphony/ros2/build/custom_message' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org PS1=[\u@\h \W]\$ /usr/bin/cmake --install /home/symphony/ros2/build/custom_message
