@@ -1,0 +1,24 @@
+[0.010s] Invoking command in '/home/symphony/Tugas_Rival/Tugas_Modul3/game_ball/build/bouncing_catcher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org PS1=[\u@\h \W]\$ /usr/bin/cmake --build /home/symphony/Tugas_Rival/Tugas_Modul3/game_ball/build/bouncing_catcher -- -j20 -l20
+[0.073s] [35m[1mConsolidate compiler generated dependencies of target game_node[0m
+[0.103s] [ 25%] [32mBuilding CXX object CMakeFiles/game_node.dir/src/game_node.cpp.o[0m
+[0.104s] [ 75%] Built target camera_node
+[2.409s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[2.409s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.409s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.409s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.409s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.409s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.409s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.409s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.409s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.409s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.409s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.409s]                  from [01m[K/home/symphony/Tugas_Rival/Tugas_Modul3/game_ball/src/bouncing_catcher/src/game_node.cpp:3[m[K:
+[2.409s] [01m[K/home/symphony/Tugas_Rival/Tugas_Modul3/game_ball/src/bouncing_catcher/src/game_node.cpp:[m[K In member function ‘[01m[Kvoid GameNode::callback_gambar(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)[m[K’:
+[2.409s] [01m[K/home/symphony/Tugas_Rival/Tugas_Modul3/game_ball/src/bouncing_catcher/src/game_node.cpp:133:68:[m[K [01;31m[Kerror: [m[K‘[01m[Kdaftar_bola_[m[K’ was not declared in this scope
+[2.410s]   133 |       RCLCPP_INFO(this->get_logger(), "Jumlah bola saat ini: %zu", [01;31m[Kdaftar_bola_[m[K.size());
+[2.410s]       |                                                                    [01;31m[K^~~~~~~~~~~~[m[K
+[4.056s] gmake[2]: *** [CMakeFiles/game_node.dir/build.make:76: CMakeFiles/game_node.dir/src/game_node.cpp.o] Error 1
+[4.057s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/game_node.dir/all] Error 2
+[4.057s] gmake: *** [Makefile:146: all] Error 2
+[4.059s] Invoked command in '/home/symphony/Tugas_Rival/Tugas_Modul3/game_ball/build/bouncing_catcher' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org PS1=[\u@\h \W]\$ /usr/bin/cmake --build /home/symphony/Tugas_Rival/Tugas_Modul3/game_ball/build/bouncing_catcher -- -j20 -l20

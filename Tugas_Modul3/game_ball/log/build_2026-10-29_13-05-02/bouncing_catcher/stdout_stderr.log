@@ -1,0 +1,11 @@
+[35m[1mConsolidate compiler generated dependencies of target game_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/game_node.dir/src/game_node.cpp.o[0m
+[ 75%] Built target camera_node
+[01m[K/home/symphony/Tugas_Rival/Tugas_Modul3/game_ball/src/bouncing_catcher/src/game_node.cpp:[m[K In member function ‘[01m[Kvoid GameNode::update_game()[m[K’:
+[01m[K/home/symphony/Tugas_Rival/Tugas_Modul3/game_ball/src/bouncing_catcher/src/game_node.cpp:206:47:[m[K [01;31m[Kerror: [m[Kinvalid use of member function ‘[01m[Krclcpp::Clock::ConstSharedPtr rclcpp::Node::get_clock() const[m[K’ (did you forget the ‘[01m[K()[m[K’ ?)
+  206 |             double timer_berlangsung = ([01;31m[Kthis->get_clock[m[K->now() - bola->sentuh_bola).seconds();
+      |                                         [01;31m[K~~~~~~^~~~~~~~~[m[K
+      |                                                        [32m[K()[m[K
+gmake[2]: *** [CMakeFiles/game_node.dir/build.make:76: CMakeFiles/game_node.dir/src/game_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/game_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

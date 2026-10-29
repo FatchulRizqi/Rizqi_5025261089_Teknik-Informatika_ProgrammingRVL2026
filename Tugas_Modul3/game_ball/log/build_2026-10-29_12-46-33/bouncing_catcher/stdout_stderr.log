@@ -1,0 +1,24 @@
+[35m[1mConsolidate compiler generated dependencies of target game_node[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/game_node.dir/src/game_node.cpp.o[0m
+[ 75%] Built target camera_node
+[01m[K/home/symphony/Tugas_Rival/Tugas_Modul3/game_ball/src/bouncing_catcher/src/game_node.cpp:[m[K In member function ‘[01m[Kvoid GameNode::callback_gambar(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/symphony/Tugas_Rival/Tugas_Modul3/game_ball/src/bouncing_catcher/src/game_node.cpp:108:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kimshow[m[K’ is not a member of ‘[01m[Kcv[m[K’
+  108 |       cv::[01;31m[Kimshow[m[K("Kamera", frame);
+      |           [01;31m[K^~~~~~[m[K
+[01m[K/home/symphony/Tugas_Rival/Tugas_Modul3/game_ball/src/bouncing_catcher/src/game_node.cpp:109:11:[m[K [01;31m[Kerror: [m[K‘[01m[KwaitKey[m[K’ is not a member of ‘[01m[Kcv[m[K’; did you mean ‘[01m[Kwrite[m[K’?
+  109 |       cv::[01;31m[KwaitKey[m[K(1);
+      |           [01;31m[K^~~~~~~[m[K
+      |           [32m[Kwrite[m[K
+[01m[K/home/symphony/Tugas_Rival/Tugas_Modul3/game_ball/src/bouncing_catcher/src/game_node.cpp:115:56:[m[K [01;31m[Kerror: [m[K‘[01m[Kb[m[K’ was not declared in this scope
+  115 |           cv::circle(frame, cv::Point(static_cast<int>([01;31m[Kb[m[K.x), static_cast<int>(b.y)), radius, cv::Scalar(0, 255, 255), -1);
+      |                                                        [01;31m[K^[m[K
+[01m[K/home/symphony/Tugas_Rival/Tugas_Modul3/game_ball/src/bouncing_catcher/src/game_node.cpp:117:56:[m[K [01;31m[Kerror: [m[K‘[01m[Kb[m[K’ was not declared in this scope
+  117 |           cv::circle(frame, cv::Point(static_cast<int>([01;31m[Kb[m[K.x), static_cast<int>(b.y)), radius, cv::Scalar(255, 0, 0), -1);
+      |                                                        [01;31m[K^[m[K
+[01m[K/home/symphony/Tugas_Rival/Tugas_Modul3/game_ball/src/bouncing_catcher/src/game_node.cpp:[m[K In member function ‘[01m[Kvoid GameNode::update_game()[m[K’:
+[01m[K/home/symphony/Tugas_Rival/Tugas_Modul3/game_ball/src/bouncing_catcher/src/game_node.cpp:155:75:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K)[m[K’ token
+  155 |       for(auto bola = kumpulan_bola_.begin(); bola != kumpulan_bola_.end()[01;31m[K)[m[K {
+      |                                                                           [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/game_node.dir/build.make:76: CMakeFiles/game_node.dir/src/game_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/game_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

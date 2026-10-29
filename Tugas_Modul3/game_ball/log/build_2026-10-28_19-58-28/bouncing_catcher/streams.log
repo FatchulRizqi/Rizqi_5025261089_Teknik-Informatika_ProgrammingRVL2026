@@ -1,0 +1,39 @@
+[0.013s] Invoking command in '/home/symphony/Tugas_Rival/Tugas_Modul3/game_ball/build/bouncing_catcher': CMAKE_PREFIX_PATH=/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org PS1=[\u@\h \W]\$ /usr/bin/cmake --build /home/symphony/Tugas_Rival/Tugas_Modul3/game_ball/build/bouncing_catcher -- -j20 -l20
+[0.196s] [35m[1mConsolidate compiler generated dependencies of target game_node[0m
+[0.256s] [ 25%] [32mBuilding CXX object CMakeFiles/game_node.dir/src/game_node.cpp.o[0m
+[0.258s] [ 75%] Built target camera_node
+[2.480s] [01m[K/home/symphony/Tugas_Rival/Tugas_Modul3/game_ball/src/bouncing_catcher/src/game_node.cpp:[m[K In member function ‘[01m[Kvoid GameNode::callback_gambar(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)[m[K’:
+[2.480s] [01m[K/home/symphony/Tugas_Rival/Tugas_Modul3/game_ball/src/bouncing_catcher/src/game_node.cpp:65:18:[m[K [01;31m[Kerror: [m[Ktoo few arguments to function ‘[01m[Kvoid cv::inRange(cv::InputArray, cv::InputArray, cv::InputArray, cv::OutputArray)[m[K’
+[2.480s]    65 |       [01;31m[Kcv::inRange(hsv, cv::Scalar(hsv_lo[0], hsv_lo[1], hsv_lo[2]), cv::Scalar(hsv_up[0], hsv_up[1], hsv_up[2]))[m[K;
+[2.480s]       |       [01;31m[K~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.480s] In file included from [01m[K/usr/include/opencv4/opencv2/core/core.hpp:48[m[K,
+[2.480s]                  from [01m[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:43[m[K,
+[2.480s]                  from [01m[K/home/symphony/Tugas_Rival/Tugas_Modul3/game_ball/src/bouncing_catcher/src/game_node.cpp:5[m[K:
+[2.480s] [01m[K/usr/include/opencv4/opencv2/core.hpp:1396:19:[m[K [01;36m[Knote: [m[Kdeclared here
+[2.480s]  1396 | CV_EXPORTS_W void [01;36m[KinRange[m[K(InputArray src, InputArray lowerb,
+[2.480s]       |                   [01;36m[K^~~~~~~[m[K
+[2.484s] [01m[K/home/symphony/Tugas_Rival/Tugas_Modul3/game_ball/src/bouncing_catcher/src/game_node.cpp:76:27:[m[K [01;31m[Kerror: [m[K‘[01m[KcounterArea[m[K’ is not a member of ‘[01m[Kcv[m[K’; did you mean ‘[01m[KcontourArea[m[K’?
+[2.484s]    76 |         double luas = cv::[01;31m[KcounterArea[m[K(k);
+[2.484s]       |                           [01;31m[K^~~~~~~~~~~[m[K
+[2.484s]       |                           [32m[KcontourArea[m[K
+[2.489s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.489s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.489s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.489s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.489s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.489s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.489s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.489s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.489s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.489s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.489s]                  from [01m[K/home/symphony/Tugas_Rival/Tugas_Modul3/game_ball/src/bouncing_catcher/src/game_node.cpp:2[m[K:
+[2.489s] [01m[K/home/symphony/Tugas_Rival/Tugas_Modul3/game_ball/src/bouncing_catcher/src/game_node.cpp:93:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kinfo[m[K’ was not declared in this scope
+[2.489s]    93 |       RCLCPP_INFO([01;31m[Kinfo[m[K->get_logger(), "KOORDINAT WARNA BIRU : X = %d Y = %d", kontur_x, kontur_y);
+[2.489s]       |                   [01;31m[K^~~~[m[K
+[2.489s] [01m[K/home/symphony/Tugas_Rival/Tugas_Modul3/game_ball/src/bouncing_catcher/src/game_node.cpp:93:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.489s]    93 |       [01;31m[KRCLCPP_INFO[m[K(info->get_logger(), "KOORDINAT WARNA BIRU : X = %d Y = %d", kontur_x, kontur_y);
+[2.489s]       |       [01;31m[K^~~~~~~~~~~[m[K
+[3.960s] gmake[2]: *** [CMakeFiles/game_node.dir/build.make:76: CMakeFiles/game_node.dir/src/game_node.cpp.o] Error 1
+[3.961s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/game_node.dir/all] Error 2
+[3.961s] gmake: *** [Makefile:146: all] Error 2
+[3.964s] Invoked command in '/home/symphony/Tugas_Rival/Tugas_Modul3/game_ball/build/bouncing_catcher' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org PS1=[\u@\h \W]\$ /usr/bin/cmake --build /home/symphony/Tugas_Rival/Tugas_Modul3/game_ball/build/bouncing_catcher -- -j20 -l20

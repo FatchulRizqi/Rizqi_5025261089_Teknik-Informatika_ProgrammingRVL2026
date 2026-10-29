@@ -1,0 +1,13 @@
+[0.010s] Invoking command in '/home/symphony/Tugas_Rival/Tugas_Modul3/game_ball/build/bouncing_catcher': CMAKE_PREFIX_PATH=/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org PS1=[\u@\h \W]\$ /usr/bin/cmake --build /home/symphony/Tugas_Rival/Tugas_Modul3/game_ball/build/bouncing_catcher -- -j20 -l20
+[0.069s] [35m[1mConsolidate compiler generated dependencies of target game_node[0m
+[0.102s] [ 25%] [32mBuilding CXX object CMakeFiles/game_node.dir/src/game_node.cpp.o[0m
+[0.103s] [ 75%] Built target camera_node
+[2.380s] [01m[K/home/symphony/Tugas_Rival/Tugas_Modul3/game_ball/src/bouncing_catcher/src/game_node.cpp:[m[K In member function ‘[01m[Kvoid GameNode::callback_gambar(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)[m[K’:
+[2.380s] [01m[K/home/symphony/Tugas_Rival/Tugas_Modul3/game_ball/src/bouncing_catcher/src/game_node.cpp:110:11:[m[K [01;31m[Kerror: [m[K‘[01m[KwriteKey[m[K’ is not a member of ‘[01m[Kcv[m[K’; did you mean ‘[01m[KwaitKey[m[K’?
+[2.380s]   110 |       cv::[01;31m[KwriteKey[m[K(1);
+[2.380s]       |           [01;31m[K^~~~~~~~[m[K
+[2.380s]       |           [32m[KwaitKey[m[K
+[4.013s] gmake[2]: *** [CMakeFiles/game_node.dir/build.make:76: CMakeFiles/game_node.dir/src/game_node.cpp.o] Error 1
+[4.014s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/game_node.dir/all] Error 2
+[4.014s] gmake: *** [Makefile:146: all] Error 2
+[4.017s] Invoked command in '/home/symphony/Tugas_Rival/Tugas_Modul3/game_ball/build/bouncing_catcher' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org PS1=[\u@\h \W]\$ /usr/bin/cmake --build /home/symphony/Tugas_Rival/Tugas_Modul3/game_ball/build/bouncing_catcher -- -j20 -l20

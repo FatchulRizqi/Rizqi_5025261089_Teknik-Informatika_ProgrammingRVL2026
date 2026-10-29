@@ -1,0 +1,11 @@
+/home/symphony/Tugas_Rival/Tugas_Modul3/game_ball/build/bouncing_catcher/CMakeFiles/uninstall.dir
+/home/symphony/Tugas_Rival/Tugas_Modul3/game_ball/build/bouncing_catcher/CMakeFiles/bouncing_catcher_uninstall.dir
+/home/symphony/Tugas_Rival/Tugas_Modul3/game_ball/build/bouncing_catcher/CMakeFiles/camera_node.dir
+/home/symphony/Tugas_Rival/Tugas_Modul3/game_ball/build/bouncing_catcher/CMakeFiles/game_node.dir
+/home/symphony/Tugas_Rival/Tugas_Modul3/game_ball/build/bouncing_catcher/CMakeFiles/test.dir
+/home/symphony/Tugas_Rival/Tugas_Modul3/game_ball/build/bouncing_catcher/CMakeFiles/edit_cache.dir
+/home/symphony/Tugas_Rival/Tugas_Modul3/game_ball/build/bouncing_catcher/CMakeFiles/rebuild_cache.dir
+/home/symphony/Tugas_Rival/Tugas_Modul3/game_ball/build/bouncing_catcher/CMakeFiles/list_install_components.dir
+/home/symphony/Tugas_Rival/Tugas_Modul3/game_ball/build/bouncing_catcher/CMakeFiles/install.dir
+/home/symphony/Tugas_Rival/Tugas_Modul3/game_ball/build/bouncing_catcher/CMakeFiles/install/local.dir
+/home/symphony/Tugas_Rival/Tugas_Modul3/game_ball/build/bouncing_catcher/CMakeFiles/install/strip.dir
