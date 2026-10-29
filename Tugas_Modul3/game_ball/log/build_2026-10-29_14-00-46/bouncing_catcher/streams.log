@@ -1,0 +1,43 @@
+[0.011s] Invoking command in '/home/symphony/Tugas_Rival/Tugas_Modul3/game_ball/build/bouncing_catcher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org PS1=[\u@\h \W]\$ /usr/bin/cmake --build /home/symphony/Tugas_Rival/Tugas_Modul3/game_ball/build/bouncing_catcher -- -j20 -l20
+[0.071s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.215s] -- Found rclcpp: 16.0.21 (/opt/ros/humble/share/rclcpp/cmake)
+[0.255s] -- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.258s] -- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.264s] -- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.274s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.285s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.317s] -- Found rmw_implementation_cmake: 6.1.4 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.319s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.466s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.529s] -- Found sensor_msgs: 4.9.2 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.554s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[0.556s] -- Found image_transport: 3.1.13 (/opt/ros/humble/share/image_transport/cmake)
+[0.573s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.637s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.637s] -- Configured cppcheck include dirs: 
+[0.637s] -- Configured cppcheck exclude dirs and/or files: 
+[0.639s] -- Added test 'lint_cmake' to check CMake code style
+[0.643s] -- Added test 'uncrustify' to check C / C++ code style
+[0.643s] -- Configured uncrustify additional arguments: 
+[0.644s] -- Added test 'xmllint' to check XML markup files
+[0.645s] -- Configuring done
+[0.677s] -- Generating done
+[0.682s] -- Build files have been written to: /home/symphony/Tugas_Rival/Tugas_Modul3/game_ball/build/bouncing_catcher
+[0.710s] [35m[1mConsolidate compiler generated dependencies of target camera_node[0m
+[0.711s] [35m[1mConsolidate compiler generated dependencies of target game_node[0m
+[0.740s] [ 25%] [32mBuilding CXX object CMakeFiles/game_node.dir/src/game_node.cpp.o[0m
+[0.741s] [ 75%] Built target camera_node
+[2.969s] [01m[K/home/symphony/Tugas_Rival/Tugas_Modul3/game_ball/src/bouncing_catcher/src/game_node.cpp:[m[K In member function ‘[01m[Kvoid GameNode::callback_gambar(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)[m[K’:
+[2.969s] [01m[K/home/symphony/Tugas_Rival/Tugas_Modul3/game_ball/src/bouncing_catcher/src/game_node.cpp:140:11:[m[K [01;31m[Kerror: [m[K‘[01m[KstreamObj[m[K’ was not declared in this scope
+[2.969s]   140 |           [01;31m[KstreamObj[m[K << std::fixed << std::setprecision(1) << sisa_waktu << "s";
+[2.969s]       |           [01;31m[K^~~~~~~~~[m[K
+[2.975s] [01m[K/home/symphony/Tugas_Rival/Tugas_Modul3/game_ball/src/bouncing_catcher/src/game_node.cpp:140:62:[m[K [01;31m[Kerror: [m[K‘[01m[Ksisa_waktu[m[K’ was not declared in this scope
+[2.975s]   140 |           streamObj << std::fixed << std::setprecision(1) << [01;31m[Ksisa_waktu[m[K << "s";
+[2.975s]       |                                                              [01;31m[K^~~~~~~~~~[m[K
+[2.975s] [01m[K/home/symphony/Tugas_Rival/Tugas_Modul3/game_ball/src/bouncing_catcher/src/game_node.cpp:137:18:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kpersentase[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.975s]   137 |           double [01;35m[Kpersentase[m[K = dwaktu / patokan;
+[2.975s]       |                  [01;35m[K^~~~~~~~~~[m[K
+[4.563s] gmake[2]: *** [CMakeFiles/game_node.dir/build.make:76: CMakeFiles/game_node.dir/src/game_node.cpp.o] Error 1
+[4.564s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/game_node.dir/all] Error 2
+[4.564s] gmake: *** [Makefile:146: all] Error 2
+[4.566s] Invoked command in '/home/symphony/Tugas_Rival/Tugas_Modul3/game_ball/build/bouncing_catcher' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org PS1=[\u@\h \W]\$ /usr/bin/cmake --build /home/symphony/Tugas_Rival/Tugas_Modul3/game_ball/build/bouncing_catcher -- -j20 -l20

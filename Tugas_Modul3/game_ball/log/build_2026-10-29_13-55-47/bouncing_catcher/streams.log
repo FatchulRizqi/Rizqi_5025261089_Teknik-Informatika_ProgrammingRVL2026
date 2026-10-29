@@ -1,0 +1,15 @@
+[0.011s] Invoking command in '/home/symphony/Tugas_Rival/Tugas_Modul3/game_ball/build/bouncing_catcher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org PS1=[\u@\h \W]\$ /usr/bin/cmake --build /home/symphony/Tugas_Rival/Tugas_Modul3/game_ball/build/bouncing_catcher -- -j20 -l20
+[0.068s] [35m[1mConsolidate compiler generated dependencies of target game_node[0m
+[0.094s] [ 25%] [32mBuilding CXX object CMakeFiles/game_node.dir/src/game_node.cpp.o[0m
+[0.095s] [ 75%] Built target camera_node
+[2.405s] [01m[K/home/symphony/Tugas_Rival/Tugas_Modul3/game_ball/src/bouncing_catcher/src/game_node.cpp:[m[K In member function ‘[01m[Kvoid GameNode::callback_gambar(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)[m[K’:
+[2.405s] [01m[K/home/symphony/Tugas_Rival/Tugas_Modul3/game_ball/src/bouncing_catcher/src/game_node.cpp:139:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kstrecv[m[K’ has not been declared
+[2.405s]   139 |           std::string teks_loading = [01;31m[Kstrecv[m[K::Point posisi_bola(static_cast<int>(bola.x), static_cast<int>(bola.y));amObj.str();
+[2.405s]       |                                      [01;31m[K^~~~~~[m[K
+[2.410s] [01m[K/home/symphony/Tugas_Rival/Tugas_Modul3/game_ball/src/bouncing_catcher/src/game_node.cpp:139:116:[m[K [01;31m[Kerror: [m[K‘[01m[KamObj[m[K’ was not declared in this scope
+[2.410s]   139 |           std::string teks_loading = strecv::Point posisi_bola(static_cast<int>(bola.x), static_cast<int>(bola.y));[01;31m[KamObj[m[K.str();
+[2.410s]       |                                                                                                                    [01;31m[K^~~~~[m[K
+[4.027s] gmake[2]: *** [CMakeFiles/game_node.dir/build.make:76: CMakeFiles/game_node.dir/src/game_node.cpp.o] Error 1
+[4.027s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/game_node.dir/all] Error 2
+[4.028s] gmake: *** [Makefile:146: all] Error 2
+[4.030s] Invoked command in '/home/symphony/Tugas_Rival/Tugas_Modul3/game_ball/build/bouncing_catcher' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org PS1=[\u@\h \W]\$ /usr/bin/cmake --build /home/symphony/Tugas_Rival/Tugas_Modul3/game_ball/build/bouncing_catcher -- -j20 -l20

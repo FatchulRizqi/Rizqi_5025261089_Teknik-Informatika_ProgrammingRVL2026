@@ -7,6 +7,8 @@
 #include <opencv2/opencv.hpp>
 #include <vector>
 #include <cmath>
+#include <sstream>
+#include <iomanip>
 #include <random>
 
 struct bola {
@@ -22,7 +24,7 @@ class GameNode : public rclcpp::Node {
       // parameter yang dibutuhkan
       this->declare_parameter("num_balls", 3);
       this->declare_parameter("hold_duration", 2.0);
-      this->declare_parameter("ball_radius", 40);
+      this->declare_parameter("ball_radius", 100);
       this->declare_parameter("ball_speed", 150.0);
       this->declare_parameter("min_area", 300);
 
@@ -118,10 +120,31 @@ class GameNode : public rclcpp::Node {
       RCLCPP_INFO(this->get_logger(), "KOORDINAT WARNA BIRU : X = %d Y = %d", kontur_x, kontur_y);    
 
       int radius = this->get_parameter("ball_radius").as_int();
+      double waktu_sekarang = this->now().seconds();
+      double patokan = this->get_parameter("hold_duration").as_double();
 
       for(const auto& bola : kumpulan_bola_) {
+        cv::Point posisi_bola(static_cast<int>(bola.x), static_cast<int>(bola.y));
         if(bola.disentuh) {
           cv::circle(frame, cv::Point(static_cast<int>(bola.x), static_cast<int>(bola.y)), radius, cv::Scalar(0, 255, 255), -1);
+
+          double dwaktu = waktu_sekarang - bola.sentuh_bola;
+
+          if(dwaktu >= patokan) {
+            dwaktu = patokan;
+          }
+
+          double persentase = (dwaktu / patokan) * 100;
+          std::ostringstream streamObj;
+          // (Di atasnya ada kode std::ostringstream streamObj; ...)
+          streamObj << std::fixed << std::setprecision(1) << persentase << "s%";
+          std::string teks_loading = streamObj.str();
+
+          cv::Point posisi_teks(posisi_bola.x - 15, posisi_bola.y + 5); 
+
+          cv::putText(frame, teks_loading, posisi_teks, cv::FONT_HERSHEY_SIMPLEX, 0.6, cv::Scalar(0, 0, 0), 3);
+          cv::putText(frame, teks_loading, posisi_teks, cv::FONT_HERSHEY_SIMPLEX, 0.6, cv::Scalar(255, 255, 255), 2); 
+
         } else {
           cv::circle(frame, cv::Point(static_cast<int>(bola.x), static_cast<int>(bola.y)), radius, cv::Scalar(255, 0, 0), -1);
         }

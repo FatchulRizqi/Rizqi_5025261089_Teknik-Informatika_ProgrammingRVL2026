@@ -1,0 +1,10 @@
+[01m[K/home/symphony/Tugas_Rival/Tugas_Modul3/game_ball/src/bouncing_catcher/src/game_node.cpp:[m[K In member function ‘[01m[Kvoid GameNode::callback_gambar(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/symphony/Tugas_Rival/Tugas_Modul3/game_ball/src/bouncing_catcher/src/game_node.cpp:128:48:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kconst bola[m[K’
+  128 |           double dwaktu = waktu_sekarang - bola[01;31m[K->[m[Ksentuh_bola;
+      |                                                [01;31m[K^~[m[K
+[01m[K/home/symphony/Tugas_Rival/Tugas_Modul3/game_ball/src/bouncing_catcher/src/game_node.cpp:142:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kposisi_bola[m[K’ was not declared in this scope
+  142 |           cv::Point posisi_teks([01;31m[Kposisi_bola[m[K.x - 15, posisi_bola.y + 5);
+      |                                 [01;31m[K^~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/game_node.dir/build.make:76: CMakeFiles/game_node.dir/src/game_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/game_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

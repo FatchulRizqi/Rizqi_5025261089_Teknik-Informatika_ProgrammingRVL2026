@@ -1,0 +1,13 @@
+[01m[K/home/symphony/Tugas_Rival/Tugas_Modul3/game_ball/src/bouncing_catcher/src/game_node.cpp:[m[K In member function ‘[01m[Kvoid GameNode::callback_gambar(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/symphony/Tugas_Rival/Tugas_Modul3/game_ball/src/bouncing_catcher/src/game_node.cpp:140:11:[m[K [01;31m[Kerror: [m[K‘[01m[KstreamObj[m[K’ was not declared in this scope
+  140 |           [01;31m[KstreamObj[m[K << std::fixed << std::setprecision(1) << sisa_waktu << "s";
+      |           [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/symphony/Tugas_Rival/Tugas_Modul3/game_ball/src/bouncing_catcher/src/game_node.cpp:140:62:[m[K [01;31m[Kerror: [m[K‘[01m[Ksisa_waktu[m[K’ was not declared in this scope
+  140 |           streamObj << std::fixed << std::setprecision(1) << [01;31m[Ksisa_waktu[m[K << "s";
+      |                                                              [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/symphony/Tugas_Rival/Tugas_Modul3/game_ball/src/bouncing_catcher/src/game_node.cpp:137:18:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kpersentase[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  137 |           double [01;35m[Kpersentase[m[K = dwaktu / patokan;
+      |                  [01;35m[K^~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/game_node.dir/build.make:76: CMakeFiles/game_node.dir/src/game_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/game_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
