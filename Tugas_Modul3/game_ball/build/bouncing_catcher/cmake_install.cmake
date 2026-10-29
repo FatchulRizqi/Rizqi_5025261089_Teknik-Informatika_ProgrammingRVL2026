@@ -83,6 +83,10 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/bouncing_catcher" TYPE DIRECTORY FILES "/home/symphony/Tugas_Rival/Tugas_Modul3/game_ball/src/bouncing_catcher/launch")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/symphony/Tugas_Rival/Tugas_Modul3/game_ball/build/bouncing_catcher/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/bouncing_catcher")
 endif()
 

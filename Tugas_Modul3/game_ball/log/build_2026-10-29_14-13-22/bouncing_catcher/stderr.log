@@ -1,0 +1,6 @@
+[31mCMake Error at cmake_install.cmake:86 (file):
+  file INSTALL cannot find
+  "/home/symphony/Tugas_Rival/Tugas_Modul3/game_ball/src/bouncing_catcher/launch":
+  No such file or directory.
+
+[0m

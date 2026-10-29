@@ -1,0 +1,30 @@
+[0.010s] Invoking command in '/home/symphony/Tugas_Rival/Tugas_Modul3/game_ball/build/bouncing_catcher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org PS1=[\u@\h \W]\$ /usr/bin/cmake --build /home/symphony/Tugas_Rival/Tugas_Modul3/game_ball/build/bouncing_catcher -- -j20 -l20
+[0.066s] [35m[1mConsolidate compiler generated dependencies of target game_node[0m
+[0.092s] [ 25%] [32mBuilding CXX object CMakeFiles/game_node.dir/src/game_node.cpp.o[0m
+[0.093s] [ 75%] Built target camera_node
+[6.121s] [100%] [32m[1mLinking CXX executable game_node[0m
+[6.615s] [100%] Built target game_node
+[6.629s] Invoked command in '/home/symphony/Tugas_Rival/Tugas_Modul3/game_ball/build/bouncing_catcher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org PS1=[\u@\h \W]\$ /usr/bin/cmake --build /home/symphony/Tugas_Rival/Tugas_Modul3/game_ball/build/bouncing_catcher -- -j20 -l20
+[6.641s] Invoking command in '/home/symphony/Tugas_Rival/Tugas_Modul3/game_ball/build/bouncing_catcher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org PS1=[\u@\h \W]\$ /usr/bin/cmake --install /home/symphony/Tugas_Rival/Tugas_Modul3/game_ball/build/bouncing_catcher
+[6.653s] -- Install configuration: ""
+[6.653s] -- Up-to-date: /home/symphony/Tugas_Rival/Tugas_Modul3/game_ball/install/bouncing_catcher/lib/bouncing_catcher/camera_node
+[6.653s] -- Installing: /home/symphony/Tugas_Rival/Tugas_Modul3/game_ball/install/bouncing_catcher/lib/bouncing_catcher/game_node
+[6.656s] -- Set runtime path of "/home/symphony/Tugas_Rival/Tugas_Modul3/game_ball/install/bouncing_catcher/lib/bouncing_catcher/game_node" to ""
+[6.656s] -- Up-to-date: /home/symphony/Tugas_Rival/Tugas_Modul3/game_ball/install/bouncing_catcher/share/bouncing_catcher/launch
+[6.657s] -- Up-to-date: /home/symphony/Tugas_Rival/Tugas_Modul3/game_ball/install/bouncing_catcher/share/bouncing_catcher/launch/game.launch.py
+[6.657s] -- Up-to-date: /home/symphony/Tugas_Rival/Tugas_Modul3/game_ball/install/bouncing_catcher/share/ament_index/resource_index/package_run_dependencies/bouncing_catcher
+[6.657s] -- Up-to-date: /home/symphony/Tugas_Rival/Tugas_Modul3/game_ball/install/bouncing_catcher/share/ament_index/resource_index/parent_prefix_path/bouncing_catcher
+[6.657s] -- Up-to-date: /home/symphony/Tugas_Rival/Tugas_Modul3/game_ball/install/bouncing_catcher/share/bouncing_catcher/environment/ament_prefix_path.sh
+[6.657s] -- Up-to-date: /home/symphony/Tugas_Rival/Tugas_Modul3/game_ball/install/bouncing_catcher/share/bouncing_catcher/environment/ament_prefix_path.dsv
+[6.657s] -- Up-to-date: /home/symphony/Tugas_Rival/Tugas_Modul3/game_ball/install/bouncing_catcher/share/bouncing_catcher/environment/path.sh
+[6.657s] -- Up-to-date: /home/symphony/Tugas_Rival/Tugas_Modul3/game_ball/install/bouncing_catcher/share/bouncing_catcher/environment/path.dsv
+[6.657s] -- Up-to-date: /home/symphony/Tugas_Rival/Tugas_Modul3/game_ball/install/bouncing_catcher/share/bouncing_catcher/local_setup.bash
+[6.657s] -- Up-to-date: /home/symphony/Tugas_Rival/Tugas_Modul3/game_ball/install/bouncing_catcher/share/bouncing_catcher/local_setup.sh
+[6.657s] -- Up-to-date: /home/symphony/Tugas_Rival/Tugas_Modul3/game_ball/install/bouncing_catcher/share/bouncing_catcher/local_setup.zsh
+[6.658s] -- Up-to-date: /home/symphony/Tugas_Rival/Tugas_Modul3/game_ball/install/bouncing_catcher/share/bouncing_catcher/local_setup.dsv
+[6.658s] -- Installing: /home/symphony/Tugas_Rival/Tugas_Modul3/game_ball/install/bouncing_catcher/share/bouncing_catcher/package.dsv
+[6.658s] -- Up-to-date: /home/symphony/Tugas_Rival/Tugas_Modul3/game_ball/install/bouncing_catcher/share/ament_index/resource_index/packages/bouncing_catcher
+[6.658s] -- Up-to-date: /home/symphony/Tugas_Rival/Tugas_Modul3/game_ball/install/bouncing_catcher/share/bouncing_catcher/cmake/bouncing_catcherConfig.cmake
+[6.658s] -- Up-to-date: /home/symphony/Tugas_Rival/Tugas_Modul3/game_ball/install/bouncing_catcher/share/bouncing_catcher/cmake/bouncing_catcherConfig-version.cmake
+[6.658s] -- Up-to-date: /home/symphony/Tugas_Rival/Tugas_Modul3/game_ball/install/bouncing_catcher/share/bouncing_catcher/package.xml
+[6.661s] Invoked command in '/home/symphony/Tugas_Rival/Tugas_Modul3/game_ball/build/bouncing_catcher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org PS1=[\u@\h \W]\$ /usr/bin/cmake --install /home/symphony/Tugas_Rival/Tugas_Modul3/game_ball/build/bouncing_catcher

@@ -24,7 +24,7 @@ class GameNode : public rclcpp::Node {
       // parameter yang dibutuhkan
       this->declare_parameter("num_balls", 3);
       this->declare_parameter("hold_duration", 2.0);
-      this->declare_parameter("ball_radius", 100);
+      this->declare_parameter("ball_radius", 50);
       this->declare_parameter("ball_speed", 150.0);
       this->declare_parameter("min_area", 300);
 
@@ -135,12 +135,12 @@ class GameNode : public rclcpp::Node {
           }
 
           double persentase = (dwaktu / patokan) * 100;
+
           std::ostringstream streamObj;
-          // (Di atasnya ada kode std::ostringstream streamObj; ...)
           streamObj << std::fixed << std::setprecision(1) << persentase << "s%";
           std::string teks_loading = streamObj.str();
 
-          cv::Point posisi_teks(posisi_bola.x - 15, posisi_bola.y + 5); 
+          cv::Point posisi_teks(posisi_bola.x - 30, posisi_bola.y + 5); 
 
           cv::putText(frame, teks_loading, posisi_teks, cv::FONT_HERSHEY_SIMPLEX, 0.6, cv::Scalar(0, 0, 0), 3);
           cv::putText(frame, teks_loading, posisi_teks, cv::FONT_HERSHEY_SIMPLEX, 0.6, cv::Scalar(255, 255, 255), 2); 
@@ -151,9 +151,7 @@ class GameNode : public rclcpp::Node {
       }
       
       std::string teks_skor = "Score: " + std::to_string(score_);
-      // Buat bayangan hitam dulu agar teks terlihat jelas meski background-nya terang
       cv::putText(frame, teks_skor, cv::Point(22, 52), cv::FONT_HERSHEY_SIMPLEX, 1.5, cv::Scalar(0, 0, 0), 4);
-      // Baru gambar teks aslinya (warna putih)
       cv::putText(frame, teks_skor, cv::Point(20, 50), cv::FONT_HERSHEY_SIMPLEX, 1.5, cv::Scalar(255, 255, 255), 3);
 
       RCLCPP_INFO(this->get_logger(), "Jumlah bola saat ini: %zu", kumpulan_bola_.size());

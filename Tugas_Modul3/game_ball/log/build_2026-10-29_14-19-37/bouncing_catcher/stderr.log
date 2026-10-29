@@ -1,0 +1,7 @@
+[01m[K/home/symphony/Tugas_Rival/Tugas_Modul3/game_ball/src/bouncing_catcher/src/game_node.cpp:[m[K In member function ‘[01m[Kvoid GameNode::callback_gambar(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/symphony/Tugas_Rival/Tugas_Modul3/game_ball/src/bouncing_catcher/src/game_node.cpp:145:44:[m[K [01;31m[Kerror: [m[K‘[01m[Kposisi_teks[m[K’ was not declared in this scope
+  145 |           cv::putText(frame, teks_loading, [01;31m[Kposisi_teks[m[K, cv::FONT_HERSHEY_SIMPLEX, 0.6, cv::Scalar(0, 0, 0), 3);
+      |                                            [01;31m[K^~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/game_node.dir/build.make:76: CMakeFiles/game_node.dir/src/game_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/game_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

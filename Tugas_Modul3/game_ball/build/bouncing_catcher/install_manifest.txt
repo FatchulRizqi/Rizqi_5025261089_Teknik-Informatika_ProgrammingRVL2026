@@ -1,5 +1,6 @@
 /home/symphony/Tugas_Rival/Tugas_Modul3/game_ball/install/bouncing_catcher/lib/bouncing_catcher/camera_node
 /home/symphony/Tugas_Rival/Tugas_Modul3/game_ball/install/bouncing_catcher/lib/bouncing_catcher/game_node
+/home/symphony/Tugas_Rival/Tugas_Modul3/game_ball/install/bouncing_catcher/share/bouncing_catcher/launch/game.launch.py
 /home/symphony/Tugas_Rival/Tugas_Modul3/game_ball/install/bouncing_catcher/share/ament_index/resource_index/package_run_dependencies/bouncing_catcher
 /home/symphony/Tugas_Rival/Tugas_Modul3/game_ball/install/bouncing_catcher/share/ament_index/resource_index/parent_prefix_path/bouncing_catcher
 /home/symphony/Tugas_Rival/Tugas_Modul3/game_ball/install/bouncing_catcher/share/bouncing_catcher/environment/ament_prefix_path.sh

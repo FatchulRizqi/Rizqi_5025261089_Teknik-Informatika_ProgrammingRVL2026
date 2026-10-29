@@ -1,0 +1,58 @@
+[0.000000] (-) TimerEvent: {}
+[0.000204] (bouncing_catcher) JobQueued: {'identifier': 'bouncing_catcher', 'dependencies': OrderedDict()}
+[0.000263] (bouncing_catcher) JobStarted: {'identifier': 'bouncing_catcher'}
+[0.011302] (bouncing_catcher) JobProgress: {'identifier': 'bouncing_catcher', 'progress': 'cmake'}
+[0.012198] (bouncing_catcher) JobProgress: {'identifier': 'bouncing_catcher', 'progress': 'build'}
+[0.013039] (bouncing_catcher) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/symphony/Tugas_Rival/Tugas_Modul3/game_ball/build/bouncing_catcher', '--', '-j20', '-l20'], 'cwd': '/home/symphony/Tugas_Rival/Tugas_Modul3/game_ball/build/bouncing_catcher', 'env': OrderedDict([('MAIL', '/var/spool/mail/symphony'), ('HYPRLAND_CMD', 'Hyprland --watchdog-fd 4'), ('USER', 'symphony'), ('HYPRLAND_INSTANCE_SIGNATURE', 'efb50993780079460b0cbed1363e2166a2de1d9f_1793249770_1394943771'), ('STARSHIP_SHELL', 'bash'), ('HOSTNAME', 'FatchulRizqi'), ('XDG_SESSION_TYPE', 'wayland'), ('XCURSOR_SIZE', '23'), ('XDG_CACHE_HOME', '/home/symphony/.cache'), ('SHLVL', '4'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/symphony'), ('TERMINFO', '/usr/lib/kitty/terminfo'), ('MOZ_ENABLE_WAYLAND', '1'), ('OLDPWD', '/home/symphony/Tugas_Rival/Tugas_Modul3'), ('DESKTOP_SESSION', 'hyprland'), ('KITTY_INSTALLATION_DIR', '/usr/lib/kitty'), ('ROS_PYTHON_VERSION', '3'), ('PS1', '[\\u@\\h \\W]\\$'), ('KITTY_PID', '12006'), ('DISTROBOX_ENTER_PATH', '/usr/bin/distrobox-enter'), ('XDG_STATE_HOME', '/home/symphony/.local/state'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('QT_WAYLAND_DISABLE_WINDOWDECORATION', '1'), ('container', 'podman'), ('DEBUGINFOD_URLS', 'https://debuginfod.archlinux.org'), ('QT_QPA_PLATFORMTHEME', 'qt6ct'), ('WAYLAND_DISPLAY', 'wayland-1'), ('COLCON_PREFIX_PATH', '/home/symphony/Tugas_Rival/Tugas_Modul3/game_ball/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'symphony'), ('QT_AUTO_SCREEN_SCALE_FACTOR', '1.25'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERMINFO_DIRS', '/usr/share/terminfo:/run/host/usr/share/terminfo'), ('CLUTTER_BACKEND', 'wayland'), ('KITTY_PUBLIC_KEY', '1:=!JIPUkge?F;+TFD8g|TOx6|_z=l~Pd2o#4Zf#|4'), ('TERM', 'xterm-kitty'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('HL_INITIAL_WORKSPACE_TOKEN', '59c6673a-445c-43c1-b798-3839bbd574f6'), ('PATH', '/opt/ros/humble/bin:/usr/local/bin:/usr/bin:/var/lib/flatpak/exports/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/home/symphony/.spicetify:/home/symphony/.spicetify:/usr/local/sbin:/usr/sbin:/usr/local/bin:/usr/bin:/sbin:/bin:/usr/local/sbin:/usr/sbin:/sbin:/bin:/home/symphony/.spicetify:/home/symphony/.spicetify'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session2'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'wayland,x11,*'), ('DISPLAY', ':1'), ('HYPRCURSOR_SIZE', '23'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Hyprland'), ('XDG_DATA_HOME', '/home/symphony/.local/share'), ('XDG_CONFIG_HOME', '/home/symphony/.config'), ('LIBVA_DRIVER_NAME', 'nvidia'), ('XDG_SESSION_DESKTOP', 'Hyprland'), ('AMENT_PREFIX_PATH', '/home/symphony/Tugas_Rival/Tugas_Modul3/game_ball/install/bouncing_catcher:/opt/ros/humble'), ('SHELL', '/usr/bin/bash'), ('SDL_VIDEODRIVER', 'wayland'), ('KITTY_WINDOW_ID', '1'), ('VSSCRIPT_PATH', '/usr/lib/python3.14/site-packages/vapoursynth/libvsscript.so'), ('PWD', '/home/symphony/Tugas_Rival/Tugas_Modul3/game_ball/build/bouncing_catcher'), ('CONTAINER_ID', 'ros2-box'), ('QT_QPA_PLATFORM', 'wayland;xcb'), ('XDG_CONFIG_DIRS', '/etc/xdg'), ('XDG_BACKEND', 'wayland'), ('XDG_DATA_DIRS', '/home/symphony/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share'), ('STARSHIP_SESSION_KEY', '2614527335619895'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/symphony/Tugas_Rival/Tugas_Modul3/game_ball/install/bouncing_catcher:/opt/ros/humble')]), 'shell': False}
+[0.084626] (bouncing_catcher) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target game_node\x1b[0m\n'}
+[0.099425] (-) TimerEvent: {}
+[0.122266] (bouncing_catcher) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/game_node.dir/src/game_node.cpp.o\x1b[0m\n'}
+[0.123147] (bouncing_catcher) StdoutLine: {'line': b'[ 75%] Built target camera_node\n'}
+[0.199615] (-) TimerEvent: {}
+[0.299995] (-) TimerEvent: {}
+[0.400407] (-) TimerEvent: {}
+[0.500858] (-) TimerEvent: {}
+[0.601245] (-) TimerEvent: {}
+[0.701626] (-) TimerEvent: {}
+[0.802008] (-) TimerEvent: {}
+[0.902391] (-) TimerEvent: {}
+[1.002789] (-) TimerEvent: {}
+[1.103173] (-) TimerEvent: {}
+[1.203574] (-) TimerEvent: {}
+[1.303983] (-) TimerEvent: {}
+[1.404389] (-) TimerEvent: {}
+[1.504790] (-) TimerEvent: {}
+[1.605190] (-) TimerEvent: {}
+[1.705599] (-) TimerEvent: {}
+[1.806009] (-) TimerEvent: {}
+[1.906401] (-) TimerEvent: {}
+[2.006862] (-) TimerEvent: {}
+[2.107268] (-) TimerEvent: {}
+[2.207674] (-) TimerEvent: {}
+[2.308086] (-) TimerEvent: {}
+[2.351897] (bouncing_catcher) StderrLine: {'line': b'\x1b[01m\x1b[K/home/symphony/Tugas_Rival/Tugas_Modul3/game_ball/src/bouncing_catcher/src/game_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid GameNode::callback_gambar(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.352093] (bouncing_catcher) StderrLine: {'line': b'\x1b[01m\x1b[K/home/symphony/Tugas_Rival/Tugas_Modul3/game_ball/src/bouncing_catcher/src/game_node.cpp:145:44:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kposisi_teks\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.352160] (bouncing_catcher) StderrLine: {'line': b'  145 |           cv::putText(frame, teks_loading, \x1b[01;31m\x1b[Kposisi_teks\x1b[m\x1b[K, cv::FONT_HERSHEY_SIMPLEX, 0.6, cv::Scalar(0, 0, 0), 3);\n'}
+[2.352224] (bouncing_catcher) StderrLine: {'line': b'      |                                            \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.408295] (-) TimerEvent: {}
+[2.508688] (-) TimerEvent: {}
+[2.609075] (-) TimerEvent: {}
+[2.709495] (-) TimerEvent: {}
+[2.809942] (-) TimerEvent: {}
+[2.910357] (-) TimerEvent: {}
+[3.010759] (-) TimerEvent: {}
+[3.111158] (-) TimerEvent: {}
+[3.211551] (-) TimerEvent: {}
+[3.311950] (-) TimerEvent: {}
+[3.412340] (-) TimerEvent: {}
+[3.512732] (-) TimerEvent: {}
+[3.613137] (-) TimerEvent: {}
+[3.713538] (-) TimerEvent: {}
+[3.813929] (-) TimerEvent: {}
+[3.914323] (-) TimerEvent: {}
+[3.957947] (bouncing_catcher) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/game_node.dir/build.make:76: CMakeFiles/game_node.dir/src/game_node.cpp.o] Error 1\n'}
+[3.958515] (bouncing_catcher) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/game_node.dir/all] Error 2\n'}
+[3.958946] (bouncing_catcher) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[3.960874] (bouncing_catcher) CommandEnded: {'returncode': 2}
+[3.974073] (bouncing_catcher) JobEnded: {'identifier': 'bouncing_catcher', 'rc': 2}
+[3.984537] (-) EventReactorShutdown: {}
